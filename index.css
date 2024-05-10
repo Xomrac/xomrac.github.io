@@ -562,7 +562,7 @@
   background-size: cover;
   justify-content: center;
   background-color: var(--dl-color-gray-900);
-  background-image: url("public/Games/CB.jpg");
+  background-image: url("public/Games/CB.png");
   background-blend-mode: screen;
 }
 
@@ -580,7 +580,7 @@
   background-size: cover;
   justify-content: center;
   background-color: var(--dl-color-gray-900);
-  background-image: url("public/Games/risata.jpg");
+  background-image: url("public/Games/risata.png");
   background-blend-mode: screen;
 }
 
@@ -598,7 +598,7 @@
   background-size: cover;
   justify-content: center;
   background-color: var(--dl-color-gray-900);
-  background-image: url("public/Games/EXP.jpg");
+  background-image: url("public/Games/EXP.png");
   background-blend-mode: screen;
 }
 
@@ -652,7 +652,7 @@
   background-size: cover;
   justify-content: center;
   background-color: var(--dl-color-gray-900);
-  background-image: url("public/Games/sudoku.jpg");
+  background-image: url("public/Games/sudoku.png");
   background-blend-mode: screen;
 }
 
@@ -688,7 +688,7 @@
   background-size: cover;
   justify-content: center;
   background-color: var(--dl-color-gray-900);
-  background-image: url("public/Games/Spell.jpg");
+  background-image: url("public/Games/Spell.png");
   background-blend-mode: screen;
 }
 
