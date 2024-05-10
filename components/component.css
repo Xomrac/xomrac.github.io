@@ -1,0 +1,53 @@
+.service-card-service-card {
+  width: 30%;
+  display: flex;
+  padding: var(--dl-space-space-fourunits);
+  position: relative;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-900);
+}
+.service-card-heading {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  justify-content: center;
+}
+.service-card-title {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.service-card-engine-and-time {
+  color: var(--dl-color-gray-700);
+  text-align: center;
+}
+.service-card-description {
+  color: var(--dl-color-gray-700);
+  text-align: left;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+
+.app-component-container {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.app-component-text {
+  text-align: center;
+  margin-bottom: 0px;
+}
+.app-component-container1 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
