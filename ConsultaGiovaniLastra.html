@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Consulta dei Giovani - Comune di Lastra a Signa</title>
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="favicon.ico"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="styles.css"
+        />
+    </head>
+    <body>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>
+                    Consulta dei Giovani del Comune di
+                    <br />
+                    Lastra a Signa
+                </h1>
+                <p class="hero-subtitle">
+                    Uno spazio inclusivo dove ragazze e ragazzi partecipano attivamente alla vita
+                    della città, portano idee, organizzano eventi e costruiscono insieme il futuro
+                    della comunità.
+                </p>
+                <a
+                    href="#partecipare"
+                    class="cta-button"
+                >
+                    <span class="emoji">👉</span>
+                    Unisciti a noi
+                </a>
+            </div>
+        </section>
+
+        <!-- Proponi un'Idea (Hero secondaria) -->
+        <section
+            class="idea-hero"
+            id="proponi-idea"
+        >
+            <div class="idea-hero__content">
+                <h2>Hai un'idea per la Consulta?</h2>
+                <p class="idea-hero__subtitle">
+                    Scrivila qui sotto: la leggeremo e la porteremo ai prossimi incontri.
+                </p>
+
+                <form
+                    id="idea-form"
+                    class="idea-form"
+                    novalidate
+                >
+                    <label
+                        for="idea-text"
+                        class="sr-only"
+                    >
+                        La tua idea
+                    </label>
+                    <textarea
+                        id="idea-text"
+                        name="idea"
+                        rows="5"
+                        maxlength="500"
+                        required
+                        placeholder="Raccontaci la tua idea in poche righe (max 500 caratteri)"
+                    ></textarea>
+
+                    <div class="idea-form__footer">
+                        <span
+                            id="char-count"
+                            aria-live="polite"
+                        >
+                            0/500
+                        </span>
+                        <button
+                            type="submit"
+                            class="cta-button idea-form__submit"
+                        >
+                            <span class="emoji">📨</span>
+                            Invia idea
+                        </button>
+                    </div>
+
+                    <p
+                        id="idea-feedback"
+                        class="idea-form__feedback"
+                        role="status"
+                        aria-live="polite"
+                    ></p>
+                </form>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <!-- Chi Siamo Section -->
+                <section
+                    class="section"
+                    id="chi-siamo"
+                >
+                    <h2 class="section-title">Chi Siamo</h2>
+                    <div class="chi-siamo-content">
+                        <div class="chi-siamo-text">
+                            <p>
+                                La
+                                <strong class="highlight">
+                                    Consulta dei Giovani del Comune di Lastra a Signa
+                                </strong>
+                                è un organismo autonomo e apartitico istituito con delibera del
+                                Consiglio Comunale (n. 80/2024). Nasce per favorire la
+                                partecipazione attiva dei giovani e ha un ruolo:
+                            </p>
+                            <ul class="chi-siamo-list">
+                                <li>
+                                    <strong>consultivo</strong>
+                                    : raccoglie e porta le istanze dei giovani agli organi del
+                                    Comune
+                                </li>
+                                <li>
+                                    <strong>propositivo</strong>
+                                    : promuove idee, eventi e iniziative
+                                </li>
+                                <li>
+                                    <strong>conoscitivo</strong>
+                                    : approfondisce le esigenze e le aspettative delle nuove
+                                    generazioni
+                                </li>
+                                <li>
+                                    <strong>di raccordo</strong>
+                                    : fa da ponte tra i giovani e l'amministrazione comunale
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Come Partecipare Section -->
+                <section
+                    class="section"
+                    id="partecipare"
+                >
+                    <div class="partecipare">
+                        <h3>Come Partecipare</h3>
+                        <p>
+                            Hai tra i
+                            <strong>16 e i 35 anni</strong>
+                            ? Vivi o sei domiciliata/o a
+                            <strong>Lastra a Signa</strong>
+                            ? Hai voglia di
+                            <strong>
+                                proporre idee, organizzare eventi e dare voce alle nuove generazioni
+                            </strong>
+                            ?
+                        </p>
+                        <p>
+                            Se la risposta è
+                            <em>sì</em>
+                            , allora sei dei nostri!
+                            <span class="emoji">👉</span>
+                            Scrivici a
+                            <a
+                                href="mailto:cgiovani@comune.lastra-a-signa.fi.it"
+                                class="email-link"
+                            >
+                                cgiovani@comune.lastra-a-signa.fi.it
+                            </a>
+                            e unisciti alla Consulta Giovani.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Cosa Abbiamo Fatto Section -->
+                <section class="section">
+                    <h2 class="section-title">Cosa Abbiamo Fatto</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h3>
+                                <span class="emoji">🎵</span>
+                                DJ Set e Poetry Slam
+                            </h3>
+                            <p>
+                                Il nostro primo evento: una serata di musica e parole aperta a tutta
+                                la cittadinanza. Un momento di incontro e creatività che ha dato il
+                                via alle attività della Consulta.
+                            </p>
+                            <div class="project-date">18 giugno 2025</div>
+                        </div>
+                        <div
+                            class="project-card"
+                            style="
+                                background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+                                border-left: 5px solid #28a745;
+                            "
+                        >
+                            <h3>
+                                <span class="emoji">🌟</span>
+                                E siamo solo all'inizio!
+                            </h3>
+                            <p>
+                                Siamo appena partiti, ma abbiamo già iniziato a muovere i primi
+                                passi. Questo è solo l'inizio di un percorso ricco di progetti e
+                                iniziative per i giovani di Lastra a Signa.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contest Logo Section -->
+                <section class="section">
+                    <div class="contest-section">
+                        <h3>
+                            <span class="emoji">🎨</span>
+                            Contest per il nuovo logo della Consulta
+                        </h3>
+                        <p>
+                            Vuoi lasciare il segno? Partecipa al concorso per ridisegnare il logo
+                            della Consulta dei Giovani. In palio
+                            <strong>3 premi</strong>
+                            e la possibilità di vedere la tua creazione rappresentare tutti i
+                            giovani di Lastra a Signa.
+                        </p>
+                        <p>
+                            <strong>
+                                Hai tempo fino al 30 settembre per inviarci la tua proposta!
+                            </strong>
+                        </p>
+                        <a
+                            href="https://www.instagram.com/p/DN2Wt842LD9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                            class="contest-cta"
+                        >
+                            <span class="emoji">👉</span>
+                            Scopri il bando e partecipa
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Progetti in Cantiere Section -->
+                <section class="section">
+                    <h2 class="section-title">Cosa Abbiamo in Cantiere</h2>
+                    <p
+                        style="
+                            text-align: center;
+                            font-size: 1.2rem;
+                            color: #666;
+                            margin-bottom: 50px;
+                        "
+                    >
+                        Sogniamo in grande e abbiamo bisogno anche di te per trasformare le idee in
+                        realtà. Ecco alcuni dei progetti che stiamo preparando:
+                    </p>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">2025</div>
+                            <div class="timeline-content">
+                                <h4>
+                                    <span class="emoji">🌸</span>
+                                    Novembre Donna
+                                </h4>
+                                <p>
+                                    Una serie di incontri di approfondimento e confronto su temi
+                                    vicini ai giovani (presto più info)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h4>
+                                    <span class="emoji">👗</span>
+                                    Swap Party
+                                </h4>
+                                <p>
+                                    Un pomeriggio all'insegna del riuso: scambia vestiti, svuota
+                                    l'armadio e trova nuovi tesori
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2026</div>
+                            <div class="timeline-content">
+                                <h4>
+                                    <span class="emoji">⚖️</span>
+                                    Festival dei Diritti
+                                </h4>
+                                <p>
+                                    Un'occasione per riflettere, confrontarsi e portare energia
+                                    nuova alla città, con laboratori, dibattiti e attività culturali
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h4>
+                                    <span class="emoji">🎶</span>
+                                    Evento Musicale
+                                </h4>
+                                <p>
+                                    Due giorni di musica live, mercatini e divertimento per tutta la
+                                    comunità
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Final CTA Section -->
+                <section class="section">
+                    <div class="partecipare">
+                        <h3>La Consulta Funziona se ci Siamo Tutte e Tutti</h3>
+                        <p>
+                            Porta le tue idee, partecipa agli incontri, proponi attività: insieme
+                            possiamo costruire una città più giovane, aperta e inclusiva.
+                        </p>
+                        <a
+                            href="#partecipare"
+                            class="cta-button"
+                            style="
+                                background: linear-gradient(135deg, #cc2c2a, #ab2524);
+                                color: white;
+                                border: none;
+                                text-decoration: none;
+                            "
+                        >
+                            <span class="emoji">👉</span>
+                            Partecipa alla Consulta
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Contatti Section -->
+                <section class="section">
+                    <div class="contacts">
+                        <h3>
+                            <span class="emoji">📞</span>
+                            Contatti
+                        </h3>
+                        <div class="contact-item">
+                            <strong>
+                                <span class="emoji">📩</span>
+                                Email:
+                            </strong>
+                            <br />
+                            <a
+                                href="mailto:cgiovani@comune.lastra-a-signa.fi.it"
+                                class="email-link"
+                            >
+                                cgiovani@comune.lastra-a-signa.fi.it
+                            </a>
+                            <br />
+                            <a
+                                href="mailto:consultagiovani.lastra.a.signa@gmail.com"
+                                class="email-link"
+                            >
+                                consultagiovani.lastra.a.signa@gmail.com
+                            </a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>
+                                <span class="emoji">📱</span>
+                                I nostri social:
+                            </strong>
+                            <br />
+                            <a
+                                href="https://www.instagram.com/consultagiovani.lastraasigna?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                                class="social-link"
+                                target="_blank"
+                                style="
+                                    display: inline-flex;
+                                    align-items: center;
+                                    gap: 8px;
+                                    padding: 10px 15px;
+                                    border-radius: 8px;
+                                    background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+                                    color: white;
+                                    font-weight: bold;
+                                    text-decoration: none;
+                                    font-family: Arial, sans-serif;
+                                    transition: transform 0.2s ease, box-shadow 0.2s ease;
+                                "
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    fill="white"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.35 3.608 1.325.975.975 1.263 2.242 1.325 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.35 2.633-1.325 3.608-.975.975-2.242 1.263-3.608 1.325-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.35-3.608-1.325-.975-.975-1.263-2.242-1.325-3.608C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.062-1.366.35-2.633 1.325-3.608.975-.975 2.242-1.263 3.608-1.325C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072 5.773.131 4.602.44 3.635 1.407 2.668 2.374 2.359 3.545 2.3 4.824 2.241 6.104 2.228 6.513 2.228 9.772v4.456c0 3.259.013 3.668.072 4.948.059 1.279.368 2.45 1.335 3.417.967.967 2.138 1.276 3.417 1.335 1.28.059 1.689.072 4.948.072s3.668-.013 4.948-.072c1.279-.059 2.45-.368 3.417-1.335.967-.967 1.276-2.138 1.335-3.417.059-1.28.072-1.689.072-4.948v-4.456c0-3.259-.013-3.668-.072-4.948-.059-1.279-.368-2.45-1.335-3.417C19.398.44 18.227.131 16.948.072 15.668.013 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"
+                                    />
+                                </svg>
+                                Seguici su Instagram
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    © 2025 Consulta dei Giovani del Comune di Lastra a Signa. Tutti i diritti
+                    riservati.
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+        <script>
+            // 🔧 Inserisci le tue credenziali
+            const SUPABASE_URL = 'https://jbrnbpexjypyisnpnhbd.supabase.co';
+            const SUPABASE_ANON_KEY =
+                'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impicm5icGV4anlweWlzbnBuaGJkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTYzOTA3MDAsImV4cCI6MjA3MTk2NjcwMH0.u9cUnG5HYLOXKUv55dIY6Yb2NzrJWK3yf6ll1MMZnvA';
+
+            // Client globale + nome tabella
+            window.supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+            window.SUPABASE_TABLE = 'ideas';
+        </script>
+
+        <script src="script.js"></script>
+    </body>
+</html>
