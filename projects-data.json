@@ -1,0 +1,598 @@
+{
+  "educational-1": {
+    "title": "Bricky",
+    "role": "Solo Developer",
+    "year": "2025",
+    "thumbnail": "public/Images/Games/School/Bricky/Bricky.png",
+    "description": "Pygame breakout clone",
+    "longDescription": "Clone del gioco Breakout di Atari sviluppato in Python con Pygame durante il workshop di una settimana sulla programmazione in Python tenuto da 42 Firenze. Il progetto ha permesso di apprendere le basi della programmazione in Python, sia imperativa che OOP e l'uso di Pygame per lo sviluppo di giochi 2D.",
+    "technologies": ["Pygame", "Python"],
+    "features": [
+      "integrazione di un gameloop e un rendering loop",
+      "Interfaccia minimalista",
+      "Sistema audio"
+    ],
+    "engine": "Python",
+    "platforms": ["linux"],
+    "stores": [
+      {
+        "name": "Download Diretto",
+        "type": "direct-download",
+        "url": "https://example.com/bricky-download"
+      },
+      {
+        "name": "Codice Sorgente",
+        "type": "github",
+        "url": "https://github.com/username/bricky"
+      }
+    ],
+    "media": {
+      "images": [
+	"public/Images/Games/School/Bricky/Bricky.png",
+	"public/Images/Games/School/Bricky/Bricky.png"
+      ],
+      "videos": [
+	{
+    "youtubeId": "CKCZ_AJMBvU",
+    "title": "Teaser",
+    "thumbnail": ""
+  },
+  {
+    "youtubeId": "7ZAqFMcc9Sw",
+    "title": "Trailer",
+    "thumbnail": ""
+  }
+      ]
+    }
+  },
+  "educational-2": {
+    "title": "Dungeons at War",
+    "role": "Solo Programmer",
+    "year": "2023",
+    "thumbnail": "public/Images/Games/School/Daw/Thumbnail.png",
+    "description": "Grid-based tactical local multiplayer game",
+    "longDescription": "Gioco sviluppato alla <strong>TheSIGN academy</strong> durante il secondo e terzo anno di corso. Mi ha progetto ha permesso di consolidare la mia conoscenda di <strong>Unity</strong> e <strong>C#</strong> oltre all'utilizzo di algoritmi complessi di <strong>pathfinding</strong> avanzati come <strong>Dijkstra</strong> e <strong>A*</strong>. Inoltre mi ha fatto scoprire la mia passione per l'<strong>editor scripting</strong> creando una serie di tool per facilitare la creazione di livelli e la gestione delle fasi di gioco.<br> è stato presentato sul palco di <strong>Svilupparty</strong> <a href=\"https://www.youtube.com/watch?v=Zb6E5t9JyQA\" target=\"_blank\">2022</a> e <a href=\"https://www.youtube.com/watch?v=Eu1DhszpcDY\" target=\"_blank\">2023</a> oltre che essere stato pitchato a <strong>Xbox</strong>, <strong>Epic Games</strong> e <strong>11 bit studios</strong> durante un evento organizzato da <strong>TheSIGN academy</strong>.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Grid System",
+      "Turn-Based Combat",
+      "Local Multiplayer",
+      "Dijkstra and A* Pathfinding",
+      "Level Editor"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Download Diretto",
+        "type": "direct-download",
+        "url": "https://drive.google.com/uc?export=download&id=1Mj6qOey0Qa30my3IoeVsMBtQqyjhmX9u"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/School/Daw/Daw_0.jpg",
+        "public/Images/Games/School/Daw/Daw_1.jpg",
+	"public/Images/Games/School/Daw/Daw_2.jpg",
+	"public/Images/Games/School/Daw/Daw_3.jpg"
+      ],
+      "videos": [
+	{
+    "youtubeId": "CKCZ_AJMBvU",
+    "title": "Teaser",
+    "thumbnail": ""
+  },
+  {
+    "youtubeId": "7ZAqFMcc9Sw",
+    "title": "Trailer",
+    "thumbnail": ""
+  },
+  {
+    "youtubeId": "7v-C0qm6tRI",
+    "title": "Gameplay",
+    "thumbnail": ""
+  }
+      ]
+    }
+  },
+  "educational-3": {
+    "title": "Saloon Royale",
+    "role": "Sviluppatore",
+    "year": "2023",
+    "description": "Descrizione breve",
+    "longDescription": "Progetto formativo con tema western, focalizzato sull'apprendimento delle meccaniche di shooting e dell'ambientazione tematica.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Meccaniche di shooting",
+      "Ambientazione western",
+      "Sistema di duelli",
+      "Effetti visivi"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Download Diretto",
+        "type": "direct-download"
+      },
+      {
+        "name": "Codice Sorgente",
+        "type": "github"
+      }
+    ],
+    "media": {
+      "images": [
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Saloon+Screenshot+1",
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Saloon+Screenshot+2"
+      ],
+      "videos": []
+    }
+  },
+  "educational-4": {
+    "title": "Christmas Break",
+    "role": "Sviluppatore",
+    "year": "2023",
+    "description": "Descrizione breve",
+    "longDescription": "Progetto formativo sviluppato durante le vacanze natalizie, focalizzato sull'apprendimento rapido e la creatività tematica.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Tema natalizio",
+      "Meccaniche festive",
+      "Interfaccia colorata",
+      "Effetti particellari"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Download Diretto",
+        "type": "direct-download"
+      },
+      {
+        "name": "Codice Sorgente",
+        "type": "github"
+      }
+    ],
+    "media": {
+      "images": [
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Christmas+Screenshot+1",
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Christmas+Screenshot+2"
+      ],
+      "videos": []
+    }
+  },
+  "educational-5": {
+    "title": "Minimal Space Jam",
+    "role": "Sviluppatore",
+    "year": "2023",
+    "description": "Descrizione breve",
+    "longDescription": "Progetto formativo per l'apprendimento dello sviluppo mobile, con focus su design minimalista e ottimizzazione per dispositivi Android.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Design minimalista",
+      "Ottimizzazione mobile",
+      "Controlli touch",
+      "Tema spaziale"
+    ],
+    "engine": "Unity",
+    "platforms": ["android"],
+    "stores": [
+      {
+        "name": "Download Diretto",
+        "type": "direct-download"
+      }
+    ],
+    "media": {
+      "images": [
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Space+Jam+Screenshot+1",
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Space+Jam+Screenshot+2"
+      ],
+      "videos": []
+    }
+  },
+  "educational-6": {
+    "title": "The Spellcaster",
+    "role": "Sviluppatore",
+    "year": "2023",
+    "description": "Descrizione breve",
+    "longDescription": "Progetto formativo focalizzato sulle meccaniche magiche e il sistema di casting. Include vari tipi di incantesimi e effetti visivi.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Sistema di magia",
+      "Casting di incantesimi",
+      "Effetti visivi magici",
+      "Progressione del mago"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Download Diretto",
+        "type": "direct-download"
+      },
+      {
+        "name": "Codice Sorgente",
+        "type": "github"
+      }
+    ],
+    "media": {
+      "images": [
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Spellcaster+Screenshot+1",
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Spellcaster+Screenshot+2"
+      ],
+      "videos": []
+    }
+  },
+  "educational-7": {
+    "title": "Top Down Zombie Game",
+    "role": "Sviluppatore",
+    "year": "2023",
+    "description": "Descrizione breve",
+    "longDescription": "Progetto formativo per l'apprendimento delle meccaniche survival e del gameplay top-down. Include sistema di risorse e ondate di nemici.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Vista top-down",
+      "Meccaniche survival",
+      "Ondate di zombie",
+      "Sistema di risorse"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Download Diretto",
+        "type": "direct-download"
+      }
+    ],
+    "media": {
+      "images": [
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Zombie+Game+Screenshot+1",
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Zombie+Game+Screenshot+2"
+      ],
+      "videos": []
+    }
+  },
+  "personal-1": {
+    "title": "Inventory Sandbox",
+    "role": "Sviluppatore",
+    "year": "2023",
+    "description": "Descrizione breve",
+    "longDescription": "Progetto personale per sperimentare e testare diversi sistemi di inventario. Include drag & drop, stacking e sorting automatico.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Sistema modulare",
+      "Drag & drop",
+      "Stacking automatico",
+      "Interfaccia personalizzabile"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Codice Sorgente",
+        "type": "github"
+      }
+    ],
+    "media": {
+      "images": [
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Inventory+Screenshot+1",
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Inventory+Screenshot+2"
+      ],
+      "videos": []
+    }
+  },
+  "personal-2": {
+    "title": "Shooter Sandbox",
+    "role": "Sviluppatore",
+    "year": "2023",
+    "description": "Descrizione breve",
+    "longDescription": "Progetto personale per sperimentare meccaniche di shooting. Include vari tipi di armi, proiettili e sistemi di mira.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Sistema armi modulare",
+      "Tipi di proiettili",
+      "Sistema di mira",
+      "Effetti visivi"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Codice Sorgente",
+        "type": "github"
+      }
+    ],
+    "media": {
+      "images": [
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Shooter+Screenshot+1",
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Shooter+Screenshot+2"
+      ],
+      "videos": []
+    }
+  },
+  "personal-3": {
+    "title": "Sudoku",
+    "role": "Sviluppatore",
+    "year": "2023",
+    "description": "Descrizione breve",
+    "longDescription": "Progetto personale per l'apprendimento dello sviluppo mobile. Include generatore automatico di puzzle, sistema di hint e salvataggio progressi.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Generatore puzzle",
+      "Sistema di hint",
+      "Interfaccia touch",
+      "Salvataggio progressi"
+    ],
+    "engine": "Unity",
+    "platforms": ["android"],
+    "stores": [
+      {
+        "name": "Download Diretto",
+        "type": "direct-download"
+      },
+      {
+        "name": "Codice Sorgente",
+        "type": "github"
+      }
+    ],
+    "media": {
+      "images": [
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Sudoku+Screenshot+1",
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Sudoku+Screenshot+2"
+      ],
+      "videos": []
+    }
+  },
+  "gamejam-1": {
+    "title": "2025 - Bubblexploder",
+    "role": "Programmatore",
+    "year": "2023",
+    "description": "Descrizione breve",
+    "longDescription": "Progetto sviluppato durante la Global Game Jam 2025. Un gioco frenetico di esplosione di bolle con meccaniche innovative sviluppato in tempo record.",
+    "technologies": ["C#", ".NET"],
+    "features": [
+      "Meccaniche innovative",
+      "Sviluppo rapido",
+      "Teamwork intensivo",
+      "Concept originale"
+    ],
+    "engine": "C#",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Global Game Jam",
+        "type": "gamejam",
+        "url": "https://globalgamejam.org/2025/games/bubblexploder"
+      },
+      {
+        "name": "Codice Sorgente",
+        "type": "github",
+        "url": "https://github.com/username/bubblexploder"
+      }
+    ],
+    "media": {
+      "images": [
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Bubblexploder+Screenshot+1",
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Bubblexploder+Screenshot+2"
+      ],
+      "videos": []
+    }
+  },
+  "gamejam-2": {
+    "title": "2024 - Capitan Risata",
+    "role": "Programmatore",
+    "year": "2023",
+    "description": "Descrizione breve",
+    "longDescription": "Progetto sviluppato durante la Global Game Jam 2024. Un'avventura comica con il Capitan Risata, focalizzata sull'umorismo e il divertimento.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Tema comico",
+      "Personaggio carismatico",
+      "Sviluppo collaborativo",
+      "Meccaniche divertenti"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Global Game Jam",
+        "type": "gamejam"
+      },
+      {
+        "name": "Codice Sorgente",
+        "type": "github"
+      }
+    ],
+    "media": {
+      "images": [
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Capitan+Risata+Screenshot+1",
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Capitan+Risata+Screenshot+2"
+      ],
+      "videos": []
+    }
+  },
+  "gamejam-3": {
+    "title": "2023 - Rootnick",
+    "role": "Programmatore",
+    "year": "2023",
+    "description": "Descrizione breve",
+    "longDescription": "Progetto sviluppato durante la Global Game Jam 2023. Un gioco con tema botanico che esplora la crescita delle radici e la natura.",
+    "technologies": ["C#", ".NET"],
+    "features": [
+      "Tema botanico",
+      "Meccaniche di crescita",
+      "Concept naturale",
+      "Sviluppo intensivo"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Global Game Jam",
+        "type": "gamejam"
+      },
+      {
+        "name": "Codice Sorgente",
+        "type": "github"
+      }
+    ],
+    "media": {
+      "images": [
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Rootnick+Screenshot+1",
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Rootnick+Screenshot+2"
+      ],
+      "videos": []
+    }
+  },
+  "gamejam-4": {
+    "title": "2022 - Crocs Among Props",
+    "role": "Programmatore",
+    "year": "2023",
+    "description": "Descrizione breve",
+    "longDescription": "Progetto sviluppato durante la Global Game Jam 2022. Un gioco stealth con coccodrilli travestiti, ispirato ai giochi di deduzione sociale.",
+    "technologies": ["C#", ".NET"],
+    "features": [
+      "Meccaniche stealth",
+      "Deduzione sociale",
+      "Concept originale",
+      "Teamwork esteso"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Global Game Jam",
+        "type": "gamejam"
+      },
+      {
+        "name": "Codice Sorgente",
+        "type": "github"
+      }
+    ],
+    "media": {
+      "images": [
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Crocs+Among+Props+Screenshot+1",
+        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Crocs+Among+Props+Screenshot+2"
+      ],
+      "videos": []
+    }
+  },
+  "work-1": {
+    "title": "Virivì e l'ombra della pioggia",
+    "role": "Solo Programmer",
+    "year": "2025",
+    "thumbnail": "public/Images/Games/Work/Viri/thumb.jpg",
+    "description": "Serious Game mobile per bambini",
+    "longDescription": "Sviluppato con <a href=\"https://whitesock.it/project/virivi-e-lombra-della-pioggia/\" target=\"_blank\"><strong>Whitesock</strong></a>, Progetto cofinanziato dal bando <strong>RETURN</strong> (multi-risk science for resilient communities) dell'<strong>Università degli Studi di Firenze</strong> e supportato dal <strong>Piano Nazionale di Ripresa e Resilienza</strong> dell'<strong>Unione Europea - Next Generation EU</strong>. Questo <strong>serious game mobile</strong> per bambini e ragazzi affronta tematiche di <strong>cultura della sicurezza</strong> e <strong>cambiamento climatico</strong> attraverso un'avventura interattiva ambientata in un borgo Lucano immaginario.<br>Il gioco utilizza <strong>meccaniche investigative</strong> e un <strong>sistema di dialogue branching</strong> per guidare i giocatori attraverso situazioni di <strong>mitigazione dei rischi alluvionali</strong>, promuovendo la <strong>resilienza comunitaria</strong> e combattendo l'eco-ansia attraverso l'empowerment attivo.<br>Il progetto ha ricevuto il riconoscimento di <strong>finalista 'Best In Impact'</strong> agli <strong>Italian Video Game Awards 2025</strong>, confermando la qualità dell'impatto educativo raggiunto.",
+    "technologies": ["Unity", "C#", "articy:draft", "FMOD"],
+    "features": [
+      "Open World",
+      "Sistema di interazione con Hotspots",
+      "Dialogue System con branching paths",
+      "Integrazione articy:draft",
+      "Audio system con FMOD",
+      "Sistema di salvataggio con checkpoint automatici"
+    ],
+    "engine": "Unity",
+    "platforms": ["android", "ios"],
+    "stores": [
+      {
+        "name": "Google Play Store",
+        "type": "google-play",
+        "url": "https://play.google.com/store/apps/details?id=dev.whitesock.acterra&hl"
+      },
+      {
+        "name": "Apple App Store",
+        "type": "app-store",
+        "url": "https://apps.apple.com/it/app/viriv%C3%AC-e-lombra-della-pioggia/id6742781066"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/Work/Viri/viri_0.jpg",
+	"public/Images/Games/Work/Viri/viri_1.jpg",
+	"public/Images/Games/Work/Viri/viri_2.jpg",
+	"public/Images/Games/Work/Viri/viri_3.jpg",
+	"public/Images/Games/Work/Viri/viri_4.jpg"
+      ],
+      "videos": [
+	{
+	  "youtubeId": "oporuZRG-Fw",
+	  "title": "Gameplay Trailer",
+	  "thumbnail": ""
+	}
+      ]
+    }
+  },
+  "work-2": {
+    "title": "Grand Round VR",
+    "role": "Solo Programmer",
+    "year": "2024",
+    "thumbnail": "public/Images/Games/Work/lung/thumb.png",
+    "description": "App VR multiplayer online locale per una formazione coinvolgente e interattiva",
+    "longDescription": "Progetto <strong>VR multiplayer online locale</strong> sviluppato per <a href=\"https://nume.plus/prodotti/grvr/\" target=\"_blank\"><strong>Nume+</strong></a> con <a href=\"https://whitesock.it/project/vr-classroom/\" target=\"_blank\"><strong>Whitesock</strong></a>. Permette a team di professionisti di immergersi in <strong>ambienti di formazione realistici</strong>, migliorando l'apprendimento attraverso <strong>simulazioni pratiche</strong> e <strong>interazioni collaborative</strong> in un ambiente virtuale sicuro e controllato. La piattaforma utilizza tecnologie <strong>OpenXR</strong> e <strong>Mirror Networking</strong> per garantire un'esperienza immersiva stabile e scalabile su <strong>dispositivi VR standalone</strong>.",
+    "technologies": ["Unity", "C#", "OpenXR","Mirror Networking"],
+    "features": [
+      "Multiplayer online locale con possibilità di riconnessione",
+      "Ottimizzazione per dispositivi VR standalone",
+      "Supporto per personalizzazione dell'esperienza di formazione"
+    ],
+    "engine": "Unity",
+    "platforms": ["vr"],
+    "stores": [
+      {
+        "name": "Distribuzione Limitata",
+        "type": "limited-distribution"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/Work/lung/lung_0.png"
+      ],
+      "videos": [
+	{
+	  "youtubeId": "9MRiF6K_WJc",
+	  "title": "Showcase",
+	  "thumbnail": ""
+	}
+      ]
+    }
+  },
+  "work-3": {
+    "title": "Quadrivium",
+    "role": "Junior Game Programmer",
+    "year": "2023",
+    "thumbnail": "public/Images/Games/Work/Quad/thumb.jpg",
+    "description": "Puzzle game 2.5D a tema storico",
+    "longDescription": "Sviluppato con il team di <a href=\"https://quadriviumgame.com/\" target=\"_blank\"><strong>Quadrivium Game</strong></a>, Quadrivium è un <strong>puzzle game 2.5D</strong> basato sull' interazione fra i personaggi e l'ambiente circostante per risolvere enigmi ispirati a reali fatti storici.<br>Mi sono principalmente occupato di creare il gameloop base del gioco: controllo dei vari personaggi, sistema di dialogo, selezione dei livelli e interazione con gli ambienti di gioco.<br>Presentato a Svilupparty <a href=\"https://www.youtube.com/watch?v=xtegM_9Miww\" target=\"_blank\">2023</a> il gioco è stato poi rilasciato su Steam a febbraio 2025.",
+    "technologies": ["Unity", "C#","Inkle's Ink"],
+    "features": [
+      "Rilasciato su Steam",
+      "Sistema di controllo di più personaggi",
+      "Sistema di dialogo con branching paths adattivo in base al personaggio controllato"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Steam",
+        "type": "steam",
+        "url": "https://store.steampowered.com/app/3463240/Quadrivium__Paths_of_History/"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/Work/Quad/Quad_0.jpg",
+        "public/Images/Games/Work/Quad/Quad_1.jpg"
+      ],
+      "videos": [
+	{
+	  "youtubeId": "T9x_ZG-uRXw",
+	  "title": "Trailer",
+	  "thumbnail": ""
+	}
+      ]
+    }
+  }
+}
+

@@ -1,729 +1,611 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Xomrac's labs</title>
-    <meta property="og:title" content="Xomrac's labs" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Moretti - Game Developer</title>
+    <link rel="stylesheet" href="index-brutalist.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h2>Marco <span class="keyword">"Xomrac"</span> Moretti - <span class="keyword">Game Developer</span></h2>
+            </div>
+            <div class="nav-container">
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Progetti</a></li>
+                    <li><a href="#experience">Esperienza</a></li>
+                    <li><a href="#education">Formazione</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contatti</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Raleway;
-        font-size: 18px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.55;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
-
-        null
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/animate.css@4.1.1/animate.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-    />
-    <style>
-      html {
-      scroll-behavior: smooth;
-      }
-    </style>
-  </head>
-  <body>
-    <link rel="stylesheet" href="./style.css" />
-    <div>
-      <link href="./index.css" rel="stylesheet" />
-
-      <div class="home-container">
-        <div class="home-desktop">
-          <div id="top" data-role="Header" class="home-navbar-container">
-            <div class="home-navbar">
-              <div class="home-left-side">
-                <div class="home-links-container">
-                  <a href="#experience" class="home-link">
-                    <span class="Anchor">Experience</span>
-                    <br />
-                  </a>
-                  <a href="#education" class="home-link01 Anchor">Education</a>
-                  <a href="#projects" class="home-link02 Anchor">Projects</a>
+    <!-- Hero Section / Sezione di Presentazione -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Benvenutə!
+                    </h1>
+                    <p class="hero-description">
+                        <span class="keyword">Game developer</span> specializzato in <span class="keyword">Unity</span> e <span class="keyword">C#</span> con passione per la creazione
+                        di <span class="keyword">esperienze interattive</span> coinvolgenti. Dal <span class="keyword">VR educativo</span> ai <span class="keyword">giochi mobile</span>, 
+                        mi concentro su <span class="keyword">soluzioni innovative</span> che uniscono <span class="keyword">tecnologia</span> e <span class="keyword">creatività</span>.
+                    </p>
+                    <div class="tech-badges">
+                        <span class="badge">Unity</span>
+                        <span class="badge">C#</span>
+                        <span class="badge">VR Gaming</span>
+                        <span class="badge">Mobile Gaming</span>
+                        <span class="badge">PC Gaming</span>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Anni di esperienza</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Progetti completati</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Coding Enthusiast</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-gamepad"></i>
+                            Progetti
+                        </a>
+                        <a href="https://github.com/Xomrac" target="_blank" class="btn btn-tertiary">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+			<a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            Contattami
+                        </a>
+                    </div>
                 </div>
-              </div>
-              <div class="home-right-side">
-                <a href="#hero" class="home-cta-btn Anchor button">
-                  Return to top
-                </a>
-              </div>
-            </div>
-          </div>
-          <div id="hero" class="home-hero">
-            <div class="home-container01">
-              <img alt="image" src="public/marco-800w.png" class="home-image" />
-              <span class="home-text002">
-                <span class="home-text003">Hi my name is Marco Moretti.</span>
-                <br class="home-text004" />
-                <span class="home-text005">
-                  A Unity developer based in Florence, Italy.
-                </span>
-                <br class="home-text006" />
-                <br class="home-text007" />
-                <span class="home-text008">
-                  Bioshock taught me that videogames are more than pure
-                  entertainment and convinced me to join the game dev community!
-                </span>
-                <br />
-                <br class="home-text010" />
-                <span class="home-text011">
-                  Editor scripting, tool programming, game and project
-                  accessibility, QA and project automatization are my favourite
-                  fields.
-                </span>
-                <br />
-                <br class="home-text013" />
-                <span class="home-text014">
-                  In my free time I really like trying all sorts of videogames,
-                  but When I’m not seated at a desk I like to play tabletop
-                  games, hiking, urbexing and all sort of adventurous
-                  activities.
-                </span>
-              </span>
-            </div>
-            <div class="home-container02">
-              <img
-                alt="image"
-                src="public/marco-800w.png"
-                class="home-image1"
-              />
-              <span>
-                <span class="home-text016">Hi my name is Marco Moretti.</span>
-                <br class="home-text017" />
-                <span class="home-text018">
-                  A Unity developer based in Florence, Italy.
-                </span>
-                <br class="home-text019" />
-                <br class="home-text020" />
-                <span class="home-text021">
-                  Bioshock tought me that videogames are more than pure
-                  entertainment and convinced me to join the game dev community!
-                </span>
-                <br />
-                <br class="home-text023" />
-                <span class="home-text024">
-                  Editor scripting, tool programming, game and project
-                  accessibility, QA and project automatization are my favourite
-                  fields.
-                </span>
-                <br />
-                <br class="home-text026" />
-                <span class="home-text027">
-                  In my free time I really like trying all sorts of videogames,
-                  but When I’m not seated at a desk I like to play tabletop
-                  games, hiking, urbexing and all sort of adventurous
-                  activities.
-                </span>
-              </span>
-            </div>
-          </div>
-          <div class="home-section-separator"></div>
-          <div id="experience" class="home-experience">
-            <div class="home-heading-container">
-              <h1 class="home-text028">EXPERIENCE</h1>
-            </div>
-            <div class="home-container03">
-              <div class="home-container04">
-                <a
-                  href="https://whitesock.it/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link03"
-                >
-                  <img
-                    alt="image"
-                    src="public/Logos/ws_logo_neg_h.svg"
-                    class="home-image2"
-                  />
-                </a>
-                <span class="home-text029">
-                  <span class="home-text030">Whitesock</span>
-                  <br />
-                  <span>XR and Tools developer</span>
-                  <br />
-                  <span>2023 – ongoing</span>
-                </span>
-              </div>
-              <div class="home-container05">
-                <a
-                  href="https://thesign.academy/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link04"
-                >
-                  <img
-                    alt="image"
-                    src="public/Logos/thesign-academy-logo_54b30904-800w.png"
-                    class="home-image3"
-                  />
-                </a>
-                <span class="home-text035">
-                  <span class="home-text036">
-                    TheSign Comics and Arts Academy
-                  </span>
-                  <br />
-                  <span>Game Dev Courses assistant</span>
-                  <br />
-                  <span>2023 – ongoing</span>
-                </span>
-              </div>
-              <div class="home-container06">
-                <a
-                  href="https://quadriviumgame.com/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link05"
-                >
-                  <img
-                    alt="image"
-                    src="public/Logos/logo-bianco-200h.png"
-                    class="home-image4"
-                  />
-                </a>
-                <span class="home-text041">
-                  <span class="home-text042">Quadrivium Games</span>
-                  <br />
-                  <span>Gameplay Programmer</span>
-                  <br />
-                  <span>2022 – ongoing</span>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="home-section-separator1"></div>
-          <div id="education" class="home-education">
-            <div class="home-heading-container1">
-              <h1 class="home-text047">EDUCATION</h1>
-            </div>
-            <div class="home-container07">
-              <div class="home-container08">
-                <a
-                  href="https://thesign.academy/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link06"
-                >
-                  <img
-                    alt="image"
-                    src="public/Logos/thesign-academy-logo_54b30904-800w.png"
-                    class="home-image5"
-                  />
-                </a>
-                <span class="home-text048">
-                  <span class="home-text049">
-                    TheSign Comics and Arts Academy
-                  </span>
-                  <br />
-                  <span>Game Programming</span>
-                  <br />
-                  <span>2020 - 2023</span>
-                  <br />
-                  <span>30/30</span>
-                  <br />
-                </span>
-              </div>
-              <div class="home-container09">
-                <a
-                  href="https://www.liceorodolico.edu.it/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link07"
-                >
-                  <img
-                    alt="image"
-                    src="public/Logos/rodologo8-200h.png"
-                    class="home-image6"
-                  />
-                </a>
-                <span class="home-text057">
-                  <span class="home-text058">
-                    Liceo Scientifico e Linguistico "Niccolò Rodolico"
-                  </span>
-                  <br />
-                  <span>STEM High School</span>
-                  <br />
-                  <span>2015 - 2020</span>
-                  <br />
-                  <span>85/100</span>
-                  <br />
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="home-section-separator2"></div>
-          <div id="projects" class="home-projects">
-            <div class="home-heading-container2">
-              <h1 class="home-text066 titleText">PROJECTS</h1>
-              <span class="home-text067 subtitleText">
-                <span>For more smaller projects be sure to follow me on</span>
-                <a
-                  href="https://www.linkedin.com/in/marco-moretti-27a25a173"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link08"
-                >
-                  Linkedin
-                </a>
-              </span>
-            </div>
-            <div class="home-cards-container">
-              <div class="home-school-works">
-                <h2 class="home-text069">School</h2>
-                <div class="home-container10">
-                  <div class="home-service-card-daw">
-                    <div class="home-container11">
-                      <h3 class="home-text070 Card-Heading">
-                        Dungeons at War!
-                      </h3>
-                      <span class="home-text071">Unity - 2 years</span>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="public/me4k.jpg" alt="Profile Picture" class="profile-img">
+                        <div class="image-bg"></div>
                     </div>
-                    <span class="home-text072">
-                      <span class="home-text073">
-                        local multiplayer sometric grid based tactic game.
-                      </span>
-                      <br />
-                      <span>
-                        Worked on pathfinding, UI, map generation, unit
-                        customization and Debugging tools
-                      </span>
-                    </span>
-                    <span class="home-link09 Anchor">
-                      <a href="https://drive.google.com/uc?export=download&id=1Mj6qOey0Qa30my3IoeVsMBtQqyjhmX9u" target="_blank" rel="noreferrer noopener">Download</a>
-                    </span>
-                  </div>
-                  <div class="home-service-card-cb">
-                    <div class="home-container12">
-                      <h3 class="home-text076">
-                        <span class="Card-Heading">Christmas Break</span>
-                        <br />
-                      </h3>
-                      <span class="home-text079">Unity - 6 months</span>
-                    </div>
-                    <span class="home-text080">
-                      <span class="home-text081">
-                        Isometric satiric stealth game.
-                      </span>
-                      <span class="home-text082">.</span>
-                      <br />
-                      <span>
-                        Worked implementing an enemy state machine with 4 states
-                        and other stealth game mechanics.
-                      </span>
-                    </span>
-                    <span class="home-link10 Anchor">
-                      <a href="https://drive.google.com/uc?export=download&id=1M3igb2LBBq259zVDsMM3t4w7WI0XQXPE" target="_blank" rel="noreferrer noopener"><u>Download</u></a>
-                    </span>
-                  </div>
-                  <div class="home-service-card-minimal">
-                    <div class="home-container13">
-                      <h3 class="home-text085">MINIMAL SPACE JAM</h3>
-                      <span class="home-text086">Unity - 4 hours</span>
-                    </div>
-                    <span class="home-text087">
-                      <span class="home-text088">Hyper casual mobile game.</span>
-                      <span class="home-text089">.</span>
-                      <br />
-                      <span>
-                        Worked on the world generation system as well as the
-                        player controller
-                      </span>
-                    </span>
-                    <span class="home-link11 Anchor">
-                      <a href="https://drive.google.com/uc?export=download&id=1Kje-y-_kiSIlomMUmKekIPqaXAaX98rU" target="_blank" rel="noreferrer noopener"><u>Download</u></a>
-
-                    </span>
-                  </div>
                 </div>
-                <div class="home-container14">
-                  <div class="home-service-card-spell">
-                    <div class="home-container15">
-                      <h3 class="home-text092">THE SPELLCASTER</h3>
-                      <span class="home-text093">Unity - 1 month</span>
-                    </div>
-                    <span class="home-text094">
-                      <span class="home-text095">2D metroidvania shooter</span>
-                      <span class="home-text096">.</span>
-                      <br />
-                      <span>
-                        worked on implementing the tilemap, the 2d navmesh and
-                        simple utilities to help creating enemy arenas and boss
-                        fights
-                      </span>
-                    </span>
-                    <span class="home-link12 Anchor">
-                      <a href="https://drive.google.com/file/d/1cLk36HgYdesQxTWdMqnZnvhyw1haajyy/view?usp=sharing" target="_blank" rel="noreferrer noopener"><u>Download</u></a>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div class="home-job-works">
-                <h2 class="home-text099">Work</h2>
-                <div class="home-container16">
-                  <div class="home-service-card-quad">
-                    <div class="home-container17">
-                      <h3 class="home-text100 Card-Heading">QUADRIVIUM</h3>
-                      <span class="home-text101">Unity - 2 years</span>
-                    </div>
-                    <span class="home-text102">
-                      <span class="home-text103">
-                        2.5D adventure puzzle game.
-                      </span>
-                      <br />
-                      <span>Worked on the core Gameplay and a</span>
-                      <a
-                        href="https://www.inklestudios.com/ink/"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        class="home-link13"
-                      >
-                        Ink
-                      </a>
-                      <span></span>
-                      <span>based dialogue system.</span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div class="home-personal-works">
-                <h2 class="home-text108">
-                  <span>Personal and Jams</span>
-                  <br />
-                </h2>
-                
-                <div class="home-container18">
-                  <div class="home-service-card-risata">
-                    <div class="home-container20">
-                      <h3 class="home-text121">CAPITAN RISATA</h3>
-                      <span class="home-text122">Unity - 3 days</span>
-                    </div>
-                    <span class="home-text123">
-                      <span class="home-text124">GGJ 2024: Make me Laugh</span>
-                      <br />
-                      <span>
-                        Worked on csv parsing and a simple dialogue system
-                      </span>
-                      <br />
-                      <span></span>
-                    </span>
-                    <span class="home-link16 Anchor">
-                      <a href="https://globalgamejam.org/games/2024/capitan-risata-4" target="_blank" rel="noreferrer noopener"><u>GGJ 2024 page</u></a>
-                    </span>
-                  </div>
-                  <div class="home-service-card-sudoku">
-                    <div class="home-container20">
-                      <h3 class="home-text121">Sudoku</h3>
-                      <span class="home-text122">Unity - 6 days</span>
-                    </div>
-                    <span class="home-text123">
-                      <span class="home-text124">A classic game remade for a (failed) job application</span>
-                      <br />
-                      <span>
-                        Solo develop a sudoku app with scalable difficulty and 2 game modes
-                      </span>
-                      <br />
-                      <span></span>
-                    </span>
-                    <span class="home-link16 Anchor">
-                      <a href="https://drive.google.com/uc?export=download&id=1ghHAilJ0WYaKbvVvi8rLIlyi5XjOgiZ7" target="_blank" rel="noreferrer noopener"><u>Case Study Folder</u></a>
-                    </span>
-                  </div>
-                  <div class="home-service-card-root">
-                    <div class="home-container19">
-                      <h3 class="home-text111">ROOTNIK-1</h3>
-                      <span class="home-text112">Unity - 3 days</span>
-                    </div>
-                    <span class="home-text113">
-                      <span class="home-text114">GGJ 2023: Roots</span>
-                      <br />
-                      <span>
-                        Worked on the level progression and the character
-                        controller
-                      </span>
-                      <br />
-                      <span class="home-text118">(Unfinished project)</span>
-                      <br />
-                    </span>
-                    <span class="home-link15 Anchor">
-                      <a href="https://v3.globalgamejam.org/2023/games/rootnik-1-3" target="_blank" rel="noreferrer noopener"><u>GGJ 2023 page</u></a>
-                    </span>
-                  </div>
-                
-                  <div class="home-service-card-cap">
-                    <div class="home-container21">
-                      <h3 class="home-text129">CROCS AMONG PROPS</h3>
-                      <span class="home-text130">
-                        <span>Unity - 3 days</span>
-                        <br />
-                      </span>
-                    </div>
-                    <span class="home-text133">
-                      <span class="home-text134">GGJ 2022: Duality</span>
-                      <br />
-                      <span class="home-text136">
-                        Worked on the camera controller and game design (a
-                        little bit)
-                      </span>
-                    </span>
-                    <span class="home-link17 Anchor">
-                      <a href="https://v3.globalgamejam.org/2022/games/crocs-among-props-6" target="_blank" rel="noreferrer noopener"><u>GGJ 2022 page</u></a>
-                    </span>
-                  </div>
-                </div>
-                <div class="home-container22">
-                  <div class="home-service-card-exp">
-                    <div class="home-container23">
-                      <h3 class="home-text137">EXPERIOR</h3>
-                      <span class="home-text138">Unity - 6 days</span>
-                    </div>
-                    <span class="home-text139">
-                      <span class="home-text140">
-                        AR game to promote tourism in uncommon places in Lazio,
-                        Italy.
-                      </span>
-                      <br />
-                      <span>
-                        Worked on image recognition using unity built-in
-                        libraries.
-                      </span>
-                      <br />
-                      <a
-                        href="https://www.qacademy.it/news/44-premiati-i-vincitori-della-game-for-tourism"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        class="home-link18"
-                      >
-                        Web Article</a> (Written in Italian)
-                    </span>
-                    <span class="home-link19 Anchor">
-                      <a href="https://drive.google.com/uc?export=download&id=19Dq4mfGJcBY0Ia5ycvaU1plE7rZ2xJdA" target="_blank" rel="noreferrer noopener"><u>Download</u></a>
-                    </span>
-                  </div>
-                  <div class="home-service-card-zombie">
-                    <div class="home-container24">
-                      <h3 class="home-text145">JUST ANOTHER ZOMBIE GAME</h3>
-                      <span class="home-text146">Unity - 2 days</span>
-                    </div>
-                    <span class="home-text147">
-                      <span class="home-text148">
-                        Top down twin stick shooter.
-                      </span>
-                      <br />
-                      <span>My first fully developed game.</span>
-                      <br />
-                      <span>
-                        Worked on a weapon system and a enemy wave system
-                      </span>
-                      <br />
-                    </span>
-                    <span class="home-link20 Anchor">
-                      <a href="https://drive.google.com/uc?export=download&id=1Kv7jJZz9UJTnhdQsA7ul7MyQiRynKeLM" target="_blank" rel="noreferrer noopener"><u>Download</u></a>
-
-                    </span>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-          <div class="home-section-separator3"></div>
-          <div class="home-get-in-touch">
-            <h2 class="home-text154 Section-Heading">Get in touch</h2>
-            <div class="home-content-container">
-              <div class="home-locations-container">
-                <div class="home-location-1">
-                  <div class="home-adress">
-                    <svg viewBox="0 0 1024 1024" class="home-icon">
-                      <path
-                        d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"
-                      ></path>
-                    </svg>
-                    <a
-                      href="https://maps.app.goo.gl/kEuBwEeduPKTdAHp8"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="home-link21"
-                    >
-                      Florence, IT
-                    </a>
-                  </div>
-                  <div class="home-email">
-                    <svg viewBox="0 0 1024 1024" class="home-icon2">
-                      <path
-                        d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
-                      ></path>
-                    </svg>
-                    <a
-                      href="mailto:morettimarco2759@gmail.com?subject=I want to get in touch with you"
-                      class="home-link22"
-                    >
-                      morettimarco2759[AT]gmail[DOT]com
-                    </a>
-                  </div>
-                  <div class="home-phone">
-                    <svg
-                      viewBox="0 0 804.5714285714286 1024"
-                      class="home-icon4"
-                    >
-                      <path
-                        d="M804.571 708.571c0 20.571-9.143 60.571-17.714 79.429-12 28-44 46.286-69.714 60.571-33.714 18.286-68 29.143-106.286 29.143-53.143 0-101.143-21.714-149.714-39.429-34.857-12.571-68.571-28-100-47.429-97.143-60-214.286-177.143-274.286-274.286-19.429-31.429-34.857-65.143-47.429-100-17.714-48.571-39.429-96.571-39.429-149.714 0-38.286 10.857-72.571 29.143-106.286 14.286-25.714 32.571-57.714 60.571-69.714 18.857-8.571 58.857-17.714 79.429-17.714 4 0 8 0 12 1.714 12 4 24.571 32 30.286 43.429 18.286 32.571 36 65.714 54.857 97.714 9.143 14.857 26.286 33.143 26.286 50.857 0 34.857-103.429 85.714-103.429 116.571 0 15.429 14.286 35.429 22.286 49.143 57.714 104 129.714 176 233.714 233.714 13.714 8 33.714 22.286 49.143 22.286 30.857 0 81.714-103.429 116.571-103.429 17.714 0 36 17.143 50.857 26.286 32 18.857 65.143 36.571 97.714 54.857 11.429 5.714 39.429 18.286 43.429 30.286 1.714 4 1.714 8 1.714 12z"
-                      ></path>
-                    </svg>
-                    <a href="tel:+393338338941" class="home-link23">
-                      +39 3338338941
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="home-footer-container">
-            <div class="home-footer">
-              <div class="home-social-links">
-                <a
-                  href="mailto:morettimarco2759@gmail.com?subject=I want to get in touch"
-                  class="home-link24"
-                >
-                  <img
-                    alt="image"
-                    src="public/Icons/mail.svg"
-                    class="home-mail"
-                  />
-                </a>
-                <a
-                  href="https://api.whatsapp.com/send/?phone=393338338941&amp;text&amp;type=phone_number&amp;app_absent=0"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link25"
-                >
-                  <img
-                    alt="image"
-                    src="public/Icons/whatsapp.svg"
-                    class="home-whatsapp"
-                  />
-                </a>
-                <a
-                  href="http://discordapp.com/users/272448720405266434"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link26"
-                >
-                  <img
-                    alt="image"
-                    src="public/Icons/discord.svg"
-                    class="home-discord"
-                  />
-                </a>
-                <a
-                  href="http://xomrac.t.me/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link27"
-                >
-                  <img
-                    alt="image"
-                    src="public/Icons/telegram.svg"
-                    class="home-telegram"
-                  />
-                </a>
-                <a
-                  href="https://instagram.com/marco_xomrac_moretti"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link28"
-                >
-                  <img
-                    alt="image"
-                    src="public/Icons/instagram.svg"
-                    class="home-instagram"
-                  />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/marco-moretti-27a25a173"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link29"
-                >
-                  <img
-                    alt="image"
-                    src="public/Icons/linkedin.svg"
-                    class="home-likedin"
-                  />
-                </a>
-                <a
-                  href="https://github.com/Xomrac"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link30"
-                >
-                  <img
-                    alt="image"
-                    src="public/Icons/github.svg"
-                    class="home-github"
-                  />
-                </a>
-                <a
-                href="https://www.youtube.com/channel/UCB7HTup0J7WGk3lWCuR8CuQ"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="home-link30"
-              >
-                <img
-                  alt="image"
-                  src="public/Icons/youtube.svg"
-                  class="home-github"
-                />
-              </a>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="home-mobile">
-          <h1 class="home-text155">
-            <span class="home-text156">Mobile version: work in progress</span>
-            <br />
-            <span class="home-text158">Please switch to desktop mode</span>
-            <br />
-          </h1>
+        
+        <!-- Brutalist Background Grid -->
+        <div class="hero-bg">
+            <div class="bg-grid"></div>
         </div>
-      </div>
+    </section>
+
+    <!-- About Section (Breve sezione aggiuntiva) -->
+    <div id="about" style="position: absolute; margin-top: -120px;"></div>
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>
+                    <span class="keyword">Game developer fiorentino</span> con una forte passione per il <span class="keyword">problem-solving</span> e l'<span class="keyword">innovazione tecnologica</span>. 
+                    Lavoro sia in <span class="keyword">team</span> che come <span class="keyword">freelancer</span>, specializzandomi nello sviluppo di giochi e applicazioni 
+                    che combinano <span class="keyword">creatività</span> e <span class="keyword">funzionalità</span>. 
+                    <br><br>
+                    Negli ultimi tempi ho scoperto una crescente passione anche per la <span class="keyword">programmazione software tradizionale</span>, 
+                    pur rimanendo principalmente focalizzato sul <span class="keyword">game development</span>. 
+		    <br><br>
+		    Dalle <span class="keyword">game jam</span> ai progetti più seri, 
+                    ogni sfida è un'opportunità per perfezionare le mie <span class="keyword">competenze tecniche</span> e <span class="keyword">creative</span>. 
+                    Mi dedico costantemente all'<span class="keyword">apprendimento di nuove tecnologie</span> e all'<span class="keyword">ottimizzazione dei processi</span> di sviluppo.
+                    <br><br>
+                    Nel tempo libero mi piace impegnarmi in attività che stimolano la mente, come
+		    <span class="keyword">board game complessi</span>, <span class="keyword">studiare nuovi linguaggi di programmazione</span> e sperimentare con <span class="keyword">progetti personali</span> in compagnia dei miei <span class="keyword">gatti</span>, 
+		    che spesso si rivelano i migliori critici del mio codice.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>I miei progetti</h2>
+                <p>Una collezione dei lavori che meglio rappresentano il mio percorso di sviluppo</p>
+            </div>
+
+            <!-- Project Categories Navigation -->
+            <div class="project-categories">
+                <button class="category-btn active" data-category="all">Tutti</button>
+                <button class="category-btn" data-category="work">Lavorativi</button>
+                <button class="category-btn" data-category="gamejam">Global Game Jam</button>
+                <button class="category-btn" data-category="personal">Personali</button>
+                <button class="category-btn" data-category="education">Formativi</button>
+            </div>
+
+            <!-- Educational Projects -->
+            <!-- Work Projects -->
+            <div class="projects-category" data-category="work">
+                <h3 class="category-title">
+                    <i class="fas fa-briefcase"></i>
+                    Progetti Lavorativi
+                </h3>
+                <div class="projects-grid">
+                    <!-- Cards will be generated dynamically -->
+                </div>
+            </div>
+
+            <!-- Game Jam Projects -->
+            <div class="projects-category" data-category="gamejam">
+                <h3 class="category-title">
+                    <i class="fas fa-stopwatch"></i>
+                    Game Jam
+                </h3>
+                <div class="projects-grid">
+                    <!-- Cards will be generated dynamically -->
+                </div>
+            </div>
+
+            <!-- Personal Projects -->
+            <div class="projects-category" data-category="personal">
+                <h3 class="category-title">
+                    <i class="fas fa-heart"></i>
+                    Progetti Personali
+                </h3>
+                <div class="projects-grid">
+                    <!-- Cards will be generated dynamically -->
+                </div>
+            </div>
+
+            <!-- Educational Projects -->
+            <div class="projects-category" data-category="education">
+                <h3 class="category-title">
+                    <i class="fas fa-graduation-cap"></i>
+                    Progetti Formativi
+                </h3>
+                <div class="projects-grid">
+                    <!-- Cards will be generated dynamically -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="project-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Titolo Progetto</h2>
+                <button class="modal-close" id="modalClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="modal-body">
+                <!-- Two Column Layout -->
+                <div class="modal-content-grid">
+                    <!-- Left Column: Media Gallery -->
+                    <div class="modal-left-column">
+                        <div class="modal-gallery">
+                            <div class="main-media">
+                                <img id="modalMainImage" src="https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Screenshot+1" alt="Project Screenshot">
+                                <div id="modalMainVideo" class="youtube-container" style="display: none;">
+                                    <iframe id="youtubeFrame" width="100%" height="100%" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="media-thumbnails">
+                                <div class="thumbnail active" data-type="image" data-src="https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Screenshot+1">
+                                    <img src="https://via.placeholder.com/120x80/2d2d2d/dc2626?text=Img+1" alt="Screenshot 1">
+                                </div>
+                                <div class="thumbnail" data-type="image" data-src="https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Screenshot+2">
+                                    <img src="https://via.placeholder.com/120x80/2d2d2d/dc2626?text=Img+2" alt="Screenshot 2">
+                                </div>
+                                <div class="thumbnail" data-type="video" data-youtube="dQw4w9WgXcQ">
+                                    <div class="video-thumbnail">
+                                        <i class="fas fa-play"></i>
+                                        <span>Demo</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Project Info Table -->
+                        <div class="project-info-table">
+                            <div class="info-row">
+                                <span class="info-label">Motore:</span>
+                                <div id="modalEngine" class="info-value engine-icon-modal">
+                                    <i class="fab fa-unity"></i>
+                                </div>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Piattaforme:</span>
+                                <div id="modalPlatforms" class="info-value platforms-list">
+                                    <i class="fab fa-windows"></i>
+                                    <i class="fab fa-android"></i>
+                                </div>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Disponibile su:</span>
+                                <div id="modalStores" class="info-value stores-list">
+                                    <a href="#" class="store-link"><i class="fab fa-steam"></i></a>
+                                    <a href="#" class="store-link"><i class="fab fa-google-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Column: Project Information -->
+                    <div class="modal-right-column">
+                        <div class="project-details">
+                            <div class="detail-section">
+                                <h4>Ruolo</h4>
+                                <p id="modalRole">Unity Developer</p>
+                            </div>
+                            
+                            <div class="detail-section">
+                                <h4>Anno</h4>
+                                <p id="modalYear">2025</p>
+                            </div>
+                            
+                            <div class="detail-section">
+                                <h4>Descrizione Completa</h4>
+                                <p id="modalDescription">
+                                    Descrizione dettagliata del progetto con informazioni aggiuntive sui 
+                                    challenge affrontati, soluzioni implementate e risultati ottenuti.
+                                </p>
+                            </div>
+                            
+                            <div class="detail-section">
+                                <h4>Tecnologie Utilizzate</h4>
+                                <div id="modalTechnologies" class="tech-list">
+                                    <span class="tech-item">Unity 3D</span>
+                                    <span class="tech-item">C#</span>
+                                    <span class="tech-item">Photon Networking</span>
+                                    <span class="tech-item">DOTween</span>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-section">
+                                <h4>Caratteristiche Principali</h4>
+                                <ul id="modalFeatures" class="features-list">
+                                    <li>Sistema di inventario avanzato</li>
+                                    <li>Multiplayer online</li>
+                                    <li>Sistema di crafting procedurale</li>
+                                    <li>AI avanzata dei nemici</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <script
-      defer=""
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
-  </body>
+
+    <!-- Sezione Esperienza -->
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Esperienza Lavorativa</h2>
+                <p>Le tappe professionali che hanno formato le mie competenze</p>
+            </div>
+            
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <a href="https://thesign.academy/" target="_blank" class="company-link">
+                            <div class="company-logo">
+                                <img src="public/Images/Logos/theSign.jpg" alt="Company Logo">
+                            </div>
+                        </a>
+                        <div class="experience-info">
+                            <h4>Assistente Didattico</h4>
+                            <a href="https://thesign.academy/" target="_blank" class="company-name-link">
+                                <h5>TheSIGN Academy</h5>
+                            </a>
+                            <span class="experience-period">Nov 2023 - In corso</span>
+                            <span class="experience-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Firenze, Italia
+                            </span>
+                        </div>
+                    </div>
+                    <div class="experience-body">
+                        <p>
+                           Assistenza tecnica e didattica principalmente agli studenti del secondo e terzo anno del corso di game programming, ma fornisco supporto tecnico e morale a tutti i team e studenti dei corsi di game dev. Mi occupo di essere disponibile per consigli, secondi pareri e risoluzione di problemi tecnici, fungendo da punto di riferimento accessibile ma non come docente di ruolo.
+                        </p>
+                        <ul class="experience-achievements">
+                            <li>Supporto tecnico e didattico agli studenti</li>
+                        </ul>
+                        <div class="experience-tech">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Game Development</span>
+                            <span class="tech-tag">Mentoring</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <a href="https://whitesock.it/" target="_blank" class="company-link">
+                            <div class="company-logo">
+                                <img src="public/Images/Logos/whitesock_logo.jpg" alt="Company Logo">
+                            </div>
+                        </a>
+                        <div class="experience-info">
+                            <h4>Unity Developer</h4>
+                            <a href="https://whitesock.it/" target="_blank" class="company-name-link">
+                                <h5>Whitesock</h5>
+                            </a>
+                            <span class="experience-period">Ago 2023 - Mag 2025</span>
+                            <span class="experience-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Firenze, Italia
+                            </span>
+                        </div>
+                    </div>
+                    <div class="experience-body">
+                        <p>
+                           Main programmer su progetti VR/AR B2B nel settore della formazione, progetti B2C nel settore del mobile gaming per bambini e sviluppo di tool e framwork interni per ottimizzare i processi di sviluppo.
+                        </p>
+                        <ul class="experience-achievements">
+                            <li>Sviluppo ed ottimizzazione di esperienze VR immersive su meta quest 2/3/3s</li>
+                            <li>Sviluppo di tool interni per il team di sviluppo</li>
+                            <li>Sviluppo del gioco mobile "virivì e l'ombra della pioggia". Finalista "Best In Impact" ai IVGA 2025</li>
+                        </ul>
+                        <div class="experience-tech">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Tool Development</span>
+                            <span class="tech-tag">Mobile Gaming</span>
+                            <span class="tech-tag">UI Development</span>
+                            <span class="tech-tag">XR Development</span>
+                            <span class="tech-tag">CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Placeholder per future esperienze -->
+                <div class="experience-card placeholder-experience">
+                    <div class="experience-header">
+                        <div class="company-logo">
+                            <div class="placeholder-logo">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="experience-info">
+                            <h4>Futura Posizione</h4>
+                            <h5>In cerca di nuove opportunità</h5>
+                        </div>
+                    </div>
+                    <div class="experience-body">
+                        <p>Sempre aperto a nuove sfide e opportunità di crescita professionale.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2>Formazione</h2>
+                <p>Il mio percorso di crescita professionale e accademica</p>
+            </div>
+            
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-header">
+                        <a href="https://42firenze.it/" target="_blank" class="company-link">
+                            <div class="company-logo">
+                                <img src="public/Images/Logos/42Firenze.jpg" alt="University Logo">
+                            </div>
+                        </a>
+                        <div class="education-info">
+                            <h4>42 Common Core</h4>
+                            <a href="https://42firenze.it/" target="_blank" class="company-name-link">
+                                <h5>42 Firenze</h5>
+                            </a>
+                            <span class="education-period">2025 - In corso</span>
+                            <span class="education-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Firenze, Italia
+                            </span>
+                        </div>
+                    </div>
+                    <div class="education-body">
+                        <p>
+                            Percorso intensivo e pratico di programmazione imperativa, 
+			    basato su progetti individuali e di gruppo in C, shell scripting, algoritmi e gestione della memoria. 
+			    Ho sviluppato competenze in problem solving, debugging e collaborazione peer-to-peer, senza lezioni frontali né insegnanti, 
+			    in un ambiente basato sull'apprendimento autonomo e sul confronto tra pari.
+                        </p>
+                        <ul class="education-achievements">
+                            <li>Problem solving avanzato</li>
+                            <li>Gestione della memoria</li>
+                            <li>Debugging efficace</li>
+                        </ul>
+                        <div class="education-tech">
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">Shell</span>
+                            <span class="skill-tag">Algoritmi</span>
+                            <span class="skill-tag">Strutture Dati</span>
+                            <span class="skill-tag">Unix</span>
+                            <span class="skill-tag">C++</span>
+			    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-header">
+                        <a href="https://thesign.academy/" target="_blank" class="company-link">
+                            <div class="company-logo">
+                                <div class="placeholder-logo">
+                                    <img src="public/Images/Logos/theSign.jpg" alt="University Logo">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="education-info">
+                            <h4>Diploma Game Programming</h4>
+                            <a href="https://thesign.academy/" target="_blank" class="company-name-link">
+                                <h5>TheSIGN Academy</h5>
+                            </a>
+                            <span class="education-period">2020 - 2023</span>
+                            <span class="education-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Firenze, Italia
+                            </span>
+                        </div>
+                    </div>
+                    <div class="education-body">
+                        <p>
+			Sviluppo di progetti in Unity e UE4 sia individualmente sia in team con altri studenti dei corsi di: 3D art, 2D art e game design.
+                        </p>
+                        <ul class="education-achievements">
+                            <li>Acquisizione di solide basi in programmazione e logica</li>
+                            <li>Apprendimento di come lavorare in un team multidisciplinare</li>
+                            <li>Approfondimento di programming patterns e architettura software</li>
+                        </ul>
+                        <div class="education-tech">
+                            <span class="skill-tag">Unity</span>
+                            <span class="skill-tag">Unreal Engine</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Teamwork</span>
+                            <span class="skill-tag">Task Management</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Aggiungi altre voci formative duplicando la struttura education-card -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Competenze Tecniche</h2>
+                <p>Gli strumenti e le tecnologie che padroneggio</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>
+                        <i class="fas fa-gamepad"></i>
+                        Game Dev
+                    </h4>
+                    <div class="skill-items">
+                        <span class="skill-item">Unity</span>
+                        <span class="skill-item">C#</span>
+                        <span class="skill-item">Tool Programming</span>
+                        <span class="skill-item">UI Programming</span>
+                        <span class="skill-item">Game Design</span>
+                        <span class="skill-item">UI/UX</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>
+                        <i class="fas fa-code"></i>
+                        Programming
+                    </h4>
+                    <div class="skill-items">
+                        <span class="skill-item">C</span>
+                        <span class="skill-item">C++</span>
+                        <span class="skill-item">C#</span>
+                        <span class="skill-item">S.O.L.I.D</span>
+                        <span class="skill-item">OOP</span>
+                        <span class="skill-item">Design Patterns</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>
+                        <i class="fas fa-tools"></i>
+                        Tools
+                    </h4>
+                    <div class="skill-items">
+                        <span class="skill-item">Git/GitHub</span>
+                        <span class="skill-item">JetBrains Suite</span>
+                        <span class="skill-item">VS Code/Studio</span>
+                        <span class="skill-item">XCode</span>
+                        <span class="skill-item">Click Up</span>
+                        <span class="skill-item">Trello</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>
+                        <i class="fas fa-mobile-alt"></i>
+                        Platforms
+                    </h4>
+                    <div class="skill-items">
+			<span class="skill-item">Windows</span>
+			<span class="skill-item">Linux</span>
+			<span class="skill-item">Android</span>
+                        <span class="skill-item">iOS</span>
+                        <span class="skill-item">WebGL</span>
+                        <span class="skill-item">AR/VR</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Collaboriamo insieme</h2>
+                <p>Hai un progetto in mente? Parliamone!</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <a href="#" onclick="window.location.href='mailto:' + 'marco.moretti.developer' + '@' + 'gmail.com'; return false;" class="contact-item" style="text-decoration: none; color: inherit; cursor: pointer;">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>marco[DOT]moretti[DOT]developer[AT]gmail[DOT]com</p>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/marco-moretti-27a25a173/" target="_blank" class="contact-item" style="text-decoration: none; color: inherit;">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p>Marco Moretti</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
 </html>
