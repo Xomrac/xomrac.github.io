@@ -345,16 +345,18 @@
   },
   "gamejam-1": {
     "title": "2025 - Bubblexploder",
-    "role": "Programmatore",
-    "year": "2023",
-    "description": "Descrizione breve",
-    "longDescription": "Progetto sviluppato durante la Global Game Jam 2025. Un gioco frenetico di esplosione di bolle con meccaniche innovative sviluppato in tempo record.",
-    "technologies": ["C#", ".NET"],
+    "role": "Solo Developer",
+    "year": "2025",
+    "thumbnail": "public/Images/Games/Jams/Bubble/Thumb.png",
+    "description": "Un meta game dove scoppi finestre di Windows.",
+    "longDescription": "Piccolo gioco arcade fatto durante la GGJ 2025 a tema: \"Bubble\". Sfrutta il framework WPF per simulare un virus che ti riempie il desktop di finestre pop-up da far scoppiare.",
+    "technologies": ["C#", ".NET", "WPF"],
     "features": [
-      "Meccaniche innovative",
-      "Sviluppo rapido",
-      "Teamwork intensivo",
-      "Concept originale"
+      "Progettato per essere moddabile",
+      "Sistema audio diegetico",
+      "Suoni stupidamente forti",
+      "Colonna sonora chiptune incredibile"
+
     ],
     "engine": "C#",
     "platforms": ["windows"],
@@ -362,119 +364,148 @@
       {
         "name": "Global Game Jam",
         "type": "gamejam",
-        "url": "https://globalgamejam.org/2025/games/bubblexploder"
+        "url": "https://globalgamejam.org/games/2025/bubblexploder-2025-demake-edition-6"
       },
       {
         "name": "Codice Sorgente",
         "type": "github",
-        "url": "https://github.com/username/bubblexploder"
+        "url": "https://github.com/Xomrac/GGJ2025_BubbleXpldoer"
       }
     ],
     "media": {
       "images": [
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Bubblexploder+Screenshot+1",
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Bubblexploder+Screenshot+2"
+        "public/Images/Games/Jams/Bubble/bubble_0.png",
+        "public/Images/Games/Jams/Bubble/Thumb.png"
       ],
-      "videos": []
+      "videos": [
+	{
+	  "youtubeId": "fWCXmnfWm2A",
+	  "title": "Gameplay",
+	  "thumbnail": ""
+	}
+      ]
     }
   },
   "gamejam-2": {
     "title": "2024 - Capitan Risata",
-    "role": "Programmatore",
-    "year": "2023",
-    "description": "Descrizione breve",
-    "longDescription": "Progetto sviluppato durante la Global Game Jam 2024. Un'avventura comica con il Capitan Risata, focalizzata sull'umorismo e il divertimento.",
+    "role": "Solo Developer",
+    "year": "2024",
+    "thumbnail": "public/Images/Games/Jams/totti/totti_1.png",
+    "description": "Aiuta un volto noto a superare un brutto periodo grazie alla sua specialità, le barzellette!",
+    "longDescription": "Piccola esperienza (faccio fatica a definirla gioco) sviluppata durante la Global Game Jam 2024. Il nostro compito sarà suggerire barzellette al nostro caro capitan risata (Totti) per aiutarlo a superare un momento difficile della sua vita. Le possibili proposte sono state compilate da tutti gli altri partecipanti alla jam e come premio arrivati in fondo alla \"run\" avremo una copia del libro (in formato .txt) da poter sfoggiare agli amici.",
     "technologies": ["Unity", "C#"],
     "features": [
       "Tema comico",
       "Personaggio carismatico",
       "Sviluppo collaborativo",
-      "Meccaniche divertenti"
+      "Umorismo surreale",
+      "Doppiaggio magistrale",
+      "Cameo del Pupone"
     ],
     "engine": "Unity",
     "platforms": ["windows"],
     "stores": [
       {
         "name": "Global Game Jam",
-        "type": "gamejam"
+        "type": "gamejam",
+	"url": "https://globalgamejam.org/games/2024/capitan-risata-4"
       },
       {
         "name": "Codice Sorgente",
-        "type": "github"
+        "type": "github",
+	"url": "https://github.com/Xomrac/GGJ2024_Capitan-Risata"
       }
     ],
     "media": {
       "images": [
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Capitan+Risata+Screenshot+1",
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Capitan+Risata+Screenshot+2"
+        "public/Images/Games/Jams/totti/totti_0.png",
+        "public/Images/Games/Jams/totti/totti_1.png",
+        "public/Images/Games/Jams/totti/totti_2.png",
+	"public/Images/Games/Jams/totti/thumb.jpg"
       ],
-      "videos": []
+      "videos": [
+	{
+	  "youtubeId": "ewBrc1woF60",
+	  "title": "Gameplay",
+	  "thumbnail": ""
+	}
+      ]
     }
   },
   "gamejam-3": {
-    "title": "2023 - Rootnick",
-    "role": "Programmatore",
+    "title": "2023 - Rootnik",
+    "role": "Gameplay Programmer",
     "year": "2023",
-    "description": "Descrizione breve",
-    "longDescription": "Progetto sviluppato durante la Global Game Jam 2023. Un gioco con tema botanico che esplora la crescita delle radici e la natura.",
-    "technologies": ["C#", ".NET"],
+    "thumbnail": "public/Images/Games/Jams/root/Root.png",
+    "description": "Gioco 2D con una piantina astronauta, che purtroppo non è riuscito a decollare.",
+    "longDescription": "Purtroppo Rootnik non è riuscito a vedere la luce (si avvia a malapena) ma è stato un ottimo esercizio per imparare a lavorare in team e gestire quei conflitti che inevitabilmente nascono quando si lavora con più persone in situazioni di stress come una game jam. Il concept era interessante e il gameplay promettente, ma la mancanza di coordinazione e comunicazione ha portato a un prodotto finale incompleto.<br>mi sono comunque divertito molto e sono rimasto amico con tutti i componenti del team.<br>forse non è proprio un progetto da mostrare nel portfolio, ma è stato sicuramente un passo importante nel mio percorso di crescita come sviluppatore di giochi e perciò voglio includerlo qui.",
+    "technologies": ["Unity", "C#"],
     "features": [
-      "Tema botanico",
-      "Meccaniche di crescita",
-      "Concept naturale",
-      "Sviluppo intensivo"
+      "Si avvia (più o meno)"
     ],
     "engine": "Unity",
     "platforms": ["windows"],
     "stores": [
       {
         "name": "Global Game Jam",
-        "type": "gamejam"
+        "type": "gamejam",
+	"url": "https://v3.globalgamejam.org/2023/games/rootnik-1-3"
       },
       {
         "name": "Codice Sorgente",
-        "type": "github"
+        "type": "github",
+	"url": "https://github.com/Xomrac/GGJ2023_Rootnik"
       }
     ],
     "media": {
       "images": [
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Rootnick+Screenshot+1",
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Rootnick+Screenshot+2"
+        "public/Images/Games/Jams/root/Root.png"
       ],
       "videos": []
     }
   },
   "gamejam-4": {
     "title": "2022 - Crocs Among Props",
-    "role": "Programmatore",
-    "year": "2023",
-    "description": "Descrizione breve",
-    "longDescription": "Progetto sviluppato durante la Global Game Jam 2022. Un gioco stealth con coccodrilli travestiti, ispirato ai giochi di deduzione sociale.",
-    "technologies": ["C#", ".NET"],
+    "role": "Designer & Gameplay Programmer",
+    "year": "2022",
+    "thumbnail": "public/Images/Games/Jams/cap/thumb.png",
+    "description": "Gioco platform struggente dove devi riunire 2 crocs evitando di far friggere il PC con tutti sti props incredibili.",
+    "longDescription": "Prima volta che ho partecipato a una game jam, ho partecipato all'ideazione del gameplay e l'implementazione del character controller e dell'AI che sposta i prop in giro per la stanza.<br>Non è chissà quale capolavoro, ma mi ha fatto scoprire il mondo delle jam e mi ha dato la spinta per partecipare a tutte le jam successive, arrivando anche a partecipare come organizzatore.",
+    "technologies": ["C#", "Unity"],
     "features": [
-      "Meccaniche stealth",
-      "Deduzione sociale",
-      "Concept originale",
-      "Teamwork esteso"
+      "Sistema di feedbacks aptici",
+      "AI Roomba-like per i props",
+      "Crocs",
+      "Props"
     ],
     "engine": "Unity",
     "platforms": ["windows"],
     "stores": [
       {
         "name": "Global Game Jam",
-        "type": "gamejam"
+        "type": "gamejam",
+	"url": "https://v3.globalgamejam.org/2022/games/crocs-among-props-6"
       },
       {
         "name": "Codice Sorgente",
-        "type": "github"
+        "type": "github",
+	"url": "https://github.com/Xomrac/GGJ2022_Crocs-Among-Props"
       }
     ],
     "media": {
       "images": [
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Crocs+Among+Props+Screenshot+1",
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Crocs+Among+Props+Screenshot+2"
+        "public/Images/Games/Jams/cap/cap_0.png",
+        "public/Images/Games/Jams/cap/cap_1.png",
+        "public/Images/Games/Jams/cap/cap_2.png",
+        "public/Images/Games/Jams/cap/cap_3.png"
       ],
-      "videos": []
+      "videos": [
+	{
+	  "youtubeId": "EDANjn3q3Ek",
+	  "title": "Gameplay Trailer",
+	  "thumbnail": ""
+	}
+      ]
     }
   },
   "work-1": {
