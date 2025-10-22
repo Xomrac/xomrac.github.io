@@ -3,7 +3,7 @@
     "title": "Bricky",
     "role": "Solo Developer",
     "year": "2025",
-    "thumbnail": "public/Images/Games/School/Bricky/Bricky.png",
+    "thumbnail": "public/Images/Games/School/Bricky/thumb.png",
     "description": "Pygame breakout clone",
     "longDescription": "Clone del gioco Breakout di Atari sviluppato in Python con Pygame durante il workshop di una settimana sulla programmazione in Python tenuto da 42 Firenze. Il progetto ha permesso di apprendere le basi della programmazione in Python, sia imperativa che OOP e l'uso di Pygame per lo sviluppo di giochi 2D.",
     "technologies": ["Pygame", "Python"],
@@ -18,28 +18,23 @@
       {
         "name": "Download Diretto",
         "type": "direct-download",
-        "url": "https://example.com/bricky-download"
+        "url": "https://drive.google.com/uc?export=download&id=1WI7NRn3sASFnduAdcALUINCt5hgdQEEM"
       },
       {
         "name": "Codice Sorgente",
         "type": "github",
-        "url": "https://github.com/username/bricky"
+        "url": "https://github.com/Xomrac/Bricky"
       }
     ],
     "media": {
       "images": [
-	"public/Images/Games/School/Bricky/Bricky.png",
-	"public/Images/Games/School/Bricky/Bricky.png"
+	"public/Images/Games/School/Bricky/brick_0.png",
+	"public/Images/Games/School/Bricky/brick_1.png"
       ],
       "videos": [
-	{
-    "youtubeId": "CKCZ_AJMBvU",
-    "title": "Teaser",
-    "thumbnail": ""
-  },
   {
-    "youtubeId": "7ZAqFMcc9Sw",
-    "title": "Trailer",
+    "youtubeId": "4_TK21y15FU",
+    "title": "Gameplay",
     "thumbnail": ""
   }
       ]
@@ -95,45 +90,49 @@
       ]
     }
   },
-  "educational-3": {
+
+  "educational-4": {
     "title": "Saloon Royale",
-    "role": "Sviluppatore",
-    "year": "2023",
-    "description": "Descrizione breve",
-    "longDescription": "Progetto formativo con tema western, focalizzato sull'apprendimento delle meccaniche di shooting e dell'ambientazione tematica.",
+    "role": "Gameplay Programmer",
+    "year": "2022",
+    "thumbnail": "public/Images/Games/School/Saloon/Thumb.png",
+    "description": "Card game ispirato al gioco da tavolo Bang!",
+    "longDescription": "Progetto realizzato con gli altri programmatori del mio corso. Lo scopo era creare un gioco di carte nel giro di pochi giorni. Principalmente mi sono occupato dell'implementazione di un Card System che si occupasse della gestione di carte e mazzi",
     "technologies": ["Unity", "C#"],
     "features": [
-      "Meccaniche di shooting",
-      "Ambientazione western",
-      "Sistema di duelli",
-      "Effetti visivi"
+      "Card System data-driven",
+      "AI degli avversari",
+      "Movimento di camera su rotaia"
     ],
     "engine": "Unity",
     "platforms": ["windows"],
     "stores": [
       {
         "name": "Download Diretto",
-        "type": "direct-download"
-      },
-      {
-        "name": "Codice Sorgente",
-        "type": "github"
+        "type": "direct-download",
+	"url": "https://drive.google.com/uc?export=download&id=1PGeP9eKXp_yhlDsjEVV8GMWiUtVzUrIp"
       }
     ],
     "media": {
       "images": [
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Saloon+Screenshot+1",
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Saloon+Screenshot+2"
+        "public/Images/Games/School/Saloon/saloon_0.png",
+	"public/Images/Games/School/Saloon/saloon_2.png"
       ],
-      "videos": []
+      "videos": [
+	{
+	  "youtubeId": "9sp8MvMgsdQ",
+	  "title": "Gameplay",
+	  "thumbnail": ""
+	}
+      ]
     }
   },
-  "educational-4": {
+  "educational-5": {
     "title": "Christmas Break",
-    "role": "Sviluppatore",
-    "year": "2023",
-    "description": "Descrizione breve",
-    "longDescription": "Progetto formativo sviluppato durante le vacanze natalizie, focalizzato sull'apprendimento rapido e la creatività tematica.",
+    "role": "Solo Programmer",
+    "year": "2021",
+    "description": "Gioco stealth a tema natalizio",
+    "longDescription": "Progetto di gruppo fatto durante l'arco del mio primo anno alla TheSIGN academy.",
     "technologies": ["Unity", "C#"],
     "features": [
       "Tema natalizio",
@@ -161,40 +160,11 @@
       "videos": []
     }
   },
-  "educational-5": {
-    "title": "Minimal Space Jam",
-    "role": "Sviluppatore",
-    "year": "2023",
-    "description": "Descrizione breve",
-    "longDescription": "Progetto formativo per l'apprendimento dello sviluppo mobile, con focus su design minimalista e ottimizzazione per dispositivi Android.",
-    "technologies": ["Unity", "C#"],
-    "features": [
-      "Design minimalista",
-      "Ottimizzazione mobile",
-      "Controlli touch",
-      "Tema spaziale"
-    ],
-    "engine": "Unity",
-    "platforms": ["android"],
-    "stores": [
-      {
-        "name": "Download Diretto",
-        "type": "direct-download"
-      }
-    ],
-    "media": {
-      "images": [
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Space+Jam+Screenshot+1",
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Space+Jam+Screenshot+2"
-      ],
-      "videos": []
-    }
-  },
-  "educational-6": {
+  "educational-7": {
     "title": "The Spellcaster",
-    "role": "Sviluppatore",
-    "year": "2023",
-    "description": "Descrizione breve",
+    "role": "Gameplay Programmer",
+    "year": "2021",
+    "description": "Piccolo action non lineare in pixel art",
     "longDescription": "Progetto formativo focalizzato sulle meccaniche magiche e il sistema di casting. Include vari tipi di incantesimi e effetti visivi.",
     "technologies": ["Unity", "C#"],
     "features": [
@@ -223,11 +193,11 @@
       "videos": []
     }
   },
-  "educational-7": {
+  "educational-8": {
     "title": "Top Down Zombie Game",
-    "role": "Sviluppatore",
-    "year": "2023",
-    "description": "Descrizione breve",
+    "role": "Solo Developer",
+    "year": "2021",
+    "description": "Semplice gioco top-down twin stick shooter",
     "longDescription": "Progetto formativo per l'apprendimento delle meccaniche survival e del gameplay top-down. Include sistema di risorse e ondate di nemici.",
     "technologies": ["Unity", "C#"],
     "features": [
@@ -254,93 +224,83 @@
   },
   "personal-1": {
     "title": "Inventory Sandbox",
-    "role": "Sviluppatore",
-    "year": "2023",
-    "description": "Descrizione breve",
+    "role": "Solo Developer",
+    "year": "2025",
+    "thumbnail": "public/Images/Games/Personal/CRPG/crpg_0.png",
+    "description": "Sandbox per un sistema di inventario in stile CRPG",
     "longDescription": "Progetto personale per sperimentare e testare diversi sistemi di inventario. Include drag & drop, stacking e sorting automatico.",
     "technologies": ["Unity", "C#"],
     "features": [
-      "Sistema modulare",
-      "Drag & drop",
-      "Stacking automatico",
-      "Interfaccia personalizzabile"
+      "Data driven",
+      "inventario Drag & drop",
+      "Sistema di power up"
     ],
     "engine": "Unity",
     "platforms": ["windows"],
     "stores": [
       {
         "name": "Codice Sorgente",
-        "type": "github"
+        "type": "github",
+        "url": "https://github.com/Xomrac/Inventory_sandbox"
       }
     ],
     "media": {
       "images": [
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Inventory+Screenshot+1",
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Inventory+Screenshot+2"
+        "public/Images/Games/Personal/CRPG/crpg_0.png",
+        "public/Images/Games/Personal/CRPG/crpg_1.png",
+	"public/Images/Games/Personal/CRPG/crpg_2.png"
       ],
-      "videos": []
+      "videos": [
+	{
+		"youtubeId": "C6d74z4sNhc",
+		"title": "Gameplay",
+		"thumbnail": ""
+      }
+    ]
     }
   },
   "personal-2": {
-    "title": "Shooter Sandbox",
-    "role": "Sviluppatore",
-    "year": "2023",
-    "description": "Descrizione breve",
+    "title": "Cosmic Wars",
+    "role": "Solo Developer",
+    "year": "2024",
+    "thumbnail": "public/Images/Games/Personal/cw/Thumb.png",
+    "description": "Sandox per uno shooter arcade a scorrimento verticale: case study sull'utilizzo di pattern di programmazione",
     "longDescription": "Progetto personale per sperimentare meccaniche di shooting. Include vari tipi di armi, proiettili e sistemi di mira.",
     "technologies": ["Unity", "C#"],
     "features": [
-      "Sistema armi modulare",
-      "Tipi di proiettili",
-      "Sistema di mira",
-      "Effetti visivi"
+      "Sistema di spawn ad onde",
+      "Diverse modalità di sparo",
+      "Nemici con comportamenti unici"
     ],
     "engine": "Unity",
     "platforms": ["windows"],
     "stores": [
       {
-        "name": "Codice Sorgente",
-        "type": "github"
-      }
-    ],
-    "media": {
-      "images": [
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Shooter+Screenshot+1",
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Shooter+Screenshot+2"
-      ],
-      "videos": []
-    }
-  },
-  "personal-3": {
-    "title": "Sudoku",
-    "role": "Sviluppatore",
-    "year": "2023",
-    "description": "Descrizione breve",
-    "longDescription": "Progetto personale per l'apprendimento dello sviluppo mobile. Include generatore automatico di puzzle, sistema di hint e salvataggio progressi.",
-    "technologies": ["Unity", "C#"],
-    "features": [
-      "Generatore puzzle",
-      "Sistema di hint",
-      "Interfaccia touch",
-      "Salvataggio progressi"
-    ],
-    "engine": "Unity",
-    "platforms": ["android"],
-    "stores": [
-      {
-        "name": "Download Diretto",
-        "type": "direct-download"
+	"name": "Download Diretto",
+	"type": "direct-download",
+	"url": "https://drive.google.com/uc?export=download&id=1PVyZ3xAdCOO1lCgyvx6LaG1rX2XLPqcl"
+	
       },
-      {
-        "name": "Codice Sorgente",
-        "type": "github"
-      }
+	{
+		"name": "Codice Sorgente",
+		"type": "github",
+		"url": "https://github.com/Xomrac/ShootEmUp"
+	}
     ],
     "media": {
       "images": [
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Sudoku+Screenshot+1",
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Sudoku+Screenshot+2"
+        "public/Images/Games/Personal/cw/cw_0.png",
+	"public/Images/Games/Personal/cw/cw_1.png",
+	"public/Images/Games/Personal/cw/cw_2.png",
+	"public/Images/Games/Personal/cw/cw_3.png"
       ],
-      "videos": []
+      "videos": [
+	{
+	  "youtubeId": "NHg3g7WYMUE",
+	  "title": "Gameplay",
+	  "thumbnail": ""
+	}
+      ]
     }
   },
   "gamejam-1": {
