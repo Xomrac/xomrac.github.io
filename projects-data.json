@@ -95,7 +95,7 @@
     "title": "Saloon Royale",
     "role": "Gameplay Programmer",
     "year": "2022",
-    "thumbnail": "public/Images/Games/School/Saloon/Thumb.png",
+    "thumbnail": "public/Images/Games/School/saloon/Thumb.png",
     "description": "Card game ispirato al gioco da tavolo Bang!",
     "longDescription": "Progetto realizzato con gli altri programmatori del mio corso. Lo scopo era creare un gioco di carte nel giro di pochi giorni. Principalmente mi sono occupato dell'implementazione di un Card System che si occupasse della gestione di carte e mazzi",
     "technologies": ["Unity", "C#"],
@@ -110,20 +110,20 @@
       {
         "name": "Download Diretto",
         "type": "direct-download",
-	"url": "https://drive.google.com/uc?export=download&id=1PGeP9eKXp_yhlDsjEVV8GMWiUtVzUrIp"
+        "url": "https://drive.google.com/uc?export=download&id=1PGeP9eKXp_yhlDsjEVV8GMWiUtVzUrIp"
       }
     ],
     "media": {
       "images": [
-        "public/Images/Games/School/Saloon/saloon_0.png",
-	"public/Images/Games/School/Saloon/saloon_2.png"
+        "public/Images/Games/School/saloon/saloon_0.png",
+        "public/Images/Games/School/saloon/saloon_2.png"
       ],
       "videos": [
-	{
-	  "youtubeId": "9sp8MvMgsdQ",
-	  "title": "Gameplay",
-	  "thumbnail": ""
-	}
+        {
+          "youtubeId": "9sp8MvMgsdQ",
+          "title": "Gameplay",
+          "thumbnail": ""
+        }
       ]
     }
   },
