@@ -56,14 +56,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load project data from JSON
     let projectsData = {};
     
-    async function loadProjectsData() {
+    async function loadProjectsData(language = 'it') {
         try {
-            const response = await fetch('projects-data.json');
+            const filename = `projects-data-${language}.json`;
+            const response = await fetch(filename);
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             projectsData = await response.json();
-            console.log('Projects data loaded:', Object.keys(projectsData));
+            console.log('Projects data loaded:', Object.keys(projectsData), 'Language:', language);
         } catch (error) {
             console.error('Error loading projects data:', error);
             // Fallback data
@@ -87,6 +88,97 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             };
         }
+    }
+    
+    // Function to reload projects data and regenerate cards
+    async function reloadProjectsData(language) {
+        await loadProjectsData(language);
+        generateProjectCards();
+    }
+    
+    // Function to generate project cards
+    function generateProjectCards() {
+        console.log('Generating project cards...', Object.keys(projectsData).length, 'projects found');
+        
+        // Clear existing cards
+        const projectGrids = document.querySelectorAll('.projects-grid');
+        projectGrids.forEach(grid => {
+            grid.innerHTML = '';
+        });
+        
+        const categoryMappings = {
+            'educational': 'education',
+            'work': 'work', 
+            'personal': 'personal',
+            'gamejam': 'gamejam'
+        };
+        
+        Object.keys(projectsData).forEach(projectId => {
+            const project = projectsData[projectId];
+            const categoryPrefix = projectId.split('-')[0];
+            const categoryName = categoryMappings[categoryPrefix];
+            
+            if (!categoryName) return;
+            
+            // Find the projects grid for this category
+            const categorySection = document.querySelector(`[data-category="${categoryName}"] .projects-grid`);
+            if (!categorySection) return;
+            
+            // Create project card
+            const projectCard = document.createElement('div');
+            projectCard.className = 'project-card';
+            projectCard.setAttribute('data-project-id', projectId);
+            
+            // Generate platforms HTML
+            const platformsHTML = project.platforms.map(platform => {
+                const iconClass = platformIcons[platform] || 'fas fa-desktop';
+                return `<i class="${iconClass}" title="${platform}"></i>`;
+            }).join('');
+            
+            projectCard.innerHTML = `
+                <div class="project-image">
+                    <img src="${project.thumbnail || project.media.images[0] || 'public/Games/placeholder-project.jpg'}" alt="${project.title}">
+                </div>
+                <div class="project-info">
+                    <h4 class="project-title">${project.title}</h4>
+                    <span class="project-role">${project.role}</span>
+                    <p class="project-description">${project.description}</p>
+                    <div class="project-tech">
+                        <div class="engine-icon">
+                        </div>
+                        <div class="platform-icons">
+                            ${platformsHTML}
+                        </div>
+                    </div>
+                    <div class="store-links">
+                        <!-- Store icons will be populated dynamically -->
+                    </div>
+                </div>
+            `;
+            
+            // Add engine icon after creating the card
+            const engineIconContainer = projectCard.querySelector('.engine-icon');
+            const engineIconElement = createEngineIcon(project.engine);
+            engineIconContainer.appendChild(engineIconElement);
+            
+            categorySection.appendChild(projectCard);
+        });
+        
+        // Update store icons after cards are created
+        updateProjectCardStores();
+        
+        // Re-attach event listeners to new cards
+        attachProjectCardListeners();
+    }
+    
+    // Function to attach event listeners to project cards
+    function attachProjectCardListeners() {
+        const projectCards = document.querySelectorAll('.project-card');
+        projectCards.forEach(card => {
+            card.addEventListener('click', () => {
+                openProjectModal(card);
+            });
+        });
     }
     
     // Function to update store icons in project cards
@@ -132,10 +224,21 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
+    // Make functions available globally for translation system
+    window.loadProjectsData = loadProjectsData;
+    window.generateProjectCards = generateProjectCards;
+    window.reloadProjectsData = reloadProjectsData;
+    
+    // Initialize projects when language system is ready
+    window.initializeProjects = async function(language) {
+        console.log('Initializing projects with language:', language);
+        await loadProjectsData(language);
+        generateProjectCards();
+    };
+    
     // Initialize data loading and update cards
     async function initializeData() {
-        await loadProjectsData();
-        generateProjectCards();
+        console.log('Project system ready - waiting for language initialization');
     }
     
     // Run initialization when DOM is ready
@@ -232,76 +335,10 @@ document.addEventListener('DOMContentLoaded', function() {
         'C#': 'fas fa-hashtag'
     };
     
-    // Function to generate project cards dynamically
-    function generateProjectCards() {
-        // Clear existing cards (keep only the structure)
-        const categoryMappings = {
-            'educational': 'education',
-            'work': 'work', 
-            'personal': 'personal',
-            'gamejam': 'gamejam'
-        };
-        
-        Object.keys(projectsData).forEach(projectId => {
-            const project = projectsData[projectId];
-            const categoryPrefix = projectId.split('-')[0];
-            const categoryName = categoryMappings[categoryPrefix];
-            
-            if (!categoryName) return;
-            
-            // Find the projects grid for this category
-            const categorySection = document.querySelector(`[data-category="${categoryName}"] .projects-grid`);
-            if (!categorySection) return;
-            
-            // Create project card
-            const projectCard = document.createElement('div');
-            projectCard.className = 'project-card';
-            projectCard.setAttribute('data-project-id', projectId);
-            
-            // Generate platforms HTML
-            const platformsHTML = project.platforms.map(platform => {
-                const iconClass = platformIcons[platform] || 'fas fa-desktop';
-                return `<i class="${iconClass}" title="${platform}"></i>`;
-            }).join('');
-            
-            projectCard.innerHTML = `
-                <div class="project-image">
-                    <img src="${project.thumbnail || project.media.images[0] || 'public/Games/placeholder-project.jpg'}" alt="${project.title}">
-                </div>
-                <div class="project-info">
-                    <h4 class="project-title">${project.title}</h4>
-                    <span class="project-role">${project.role}</span>
-                    <p class="project-description">${project.description}</p>
-                    <div class="project-tech">
-                        <div class="engine-icon">
-                        </div>
-                        <div class="platform-icons">
-                            ${platformsHTML}
-                        </div>
-                    </div>
-                    <div class="store-links">
-                        <!-- Store icons will be populated dynamically -->
-                    </div>
-                </div>
-            `;
-            
-            // Add engine icon after creating the card
-            const engineIconContainer = projectCard.querySelector('.engine-icon');
-            const engineIconElement = createEngineIcon(project.engine);
-            engineIconContainer.appendChild(engineIconElement);
-            
-            categorySection.appendChild(projectCard);
-        });
-        
-        // Update store icons after cards are created
-        updateProjectCardStores();
-        
-        // Re-attach event listeners to new cards
-        attachCardEventListeners();
-    }
+
     
-    // Function to attach event listeners to cards
-    function attachCardEventListeners() {
+    // Function to attach event listeners to cards  
+    function attachProjectCardListeners() {
         const allProjectCards = document.querySelectorAll('.project-card[data-project-id]');
         
         allProjectCards.forEach(card => {
@@ -442,6 +479,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         } else {
             const placeholder = document.createElement('span');
+            placeholder.setAttribute('data-translate', 'projects.notAvailable');
             placeholder.textContent = 'Non ancora disponibile';
             placeholder.style.color = 'var(--primary-black)';
             placeholder.style.fontStyle = 'italic';

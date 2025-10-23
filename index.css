@@ -105,6 +105,43 @@ body {
     border-bottom-color: var(--primary-black);
 }
 
+/* Language Switcher */
+.language-switcher {
+    margin: 0 1rem;
+}
+
+.language-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: var(--white);
+    border: var(--border-thickness) solid var(--primary-black);
+    color: var(--primary-black);
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit;
+    font-size: 0.9rem;
+}
+
+.language-btn:hover {
+    background: var(--primary-black);
+    color: var(--white);
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0 var(--primary-red);
+}
+
+.flag-icon {
+    font-size: 1.2rem;
+}
+
+.lang-text {
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
 .hamburger {
     display: none;
     flex-direction: column;

@@ -1,0 +1,599 @@
+{
+  "educational-1": {
+    "title": "Bricky",
+    "role": "Solo Developer",
+    "year": "2025",
+    "thumbnail": "public/Images/Games/School/Bricky/thumb.png",
+    "description": "Pygame breakout clone",
+    "longDescription": "Clone of <strong>Atari's Breakout game</strong> developed in <strong>Python</strong> with <strong>Pygame</strong> during the one-week Python programming workshop held at <strong>42 Florence</strong>. The project allowed me to learn the basics of <strong>Python programming</strong>, both <strong>imperative</strong> and <strong>OOP</strong>, and the use of <strong>Pygame</strong> for <strong>2D game development</strong>.",
+    "technologies": ["Pygame", "Python"],
+    "features": [
+      "Game loop and rendering loop integration",
+      "Minimalist interface",
+      "Audio system"
+    ],
+    "engine": "Python",
+    "platforms": ["linux"],
+    "stores": [
+      {
+        "name": "Direct Download",
+        "type": "direct-download",
+        "url": "https://drive.google.com/uc?export=download&id=1WI7NRn3sASFnduAdcALUINCt5hgdQEEM"
+      },
+      {
+        "name": "Source Code",
+        "type": "github",
+        "url": "https://github.com/Xomrac/Bricky"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/School/Bricky/brick_0.png",
+        "public/Images/Games/School/Bricky/brick_1.png"
+      ],
+      "videos": [
+        {
+          "youtubeId": "4_TK21y15FU",
+          "title": "Gameplay",
+          "thumbnail": ""
+        }
+      ]
+    }
+  },
+  "educational-2": {
+    "title": "Dungeons at War",
+    "role": "Solo Programmer",
+    "year": "2023",
+    "thumbnail": "public/Images/Games/School/Daw/Thumbnail.png",
+    "description": "Grid-based tactical local multiplayer game",
+    "longDescription": "Game developed at <strong>TheSIGN academy</strong> during my second and third year of study. This project allowed me to consolidate my knowledge of <strong>Unity</strong> and <strong>C#</strong> as well as the use of complex advanced <strong>pathfinding algorithms</strong> like <strong>Dijkstra</strong> and <strong>A*</strong>. It also made me discover my passion for <strong>editor scripting</strong> by creating a series of tools to facilitate level creation and game phase management.<br> It was presented on stage at <strong>Svilupparty</strong> <a href=\"https://www.youtube.com/watch?v=Zb6E5t9JyQA\" target=\"_blank\">2022</a> and <a href=\"https://www.youtube.com/watch?v=Eu1DhszpcDY\" target=\"_blank\">2023</a> and was also pitched to <strong>Xbox</strong>, <strong>Epic Games</strong> and <strong>11 bit studios</strong> during an event organized by <strong>TheSIGN academy</strong>.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Grid System",
+      "Turn-Based Combat",
+      "Local Multiplayer",
+      "Dijkstra and A* Pathfinding",
+      "Level Editor"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Direct Download",
+        "type": "direct-download",
+        "url": "https://drive.google.com/uc?export=download&id=1Mj6qOey0Qa30my3IoeVsMBtQqyjhmX9u"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/School/Daw/Daw_0.jpg",
+        "public/Images/Games/School/Daw/Daw_1.jpg",
+        "public/Images/Games/School/Daw/Daw_2.jpg",
+        "public/Images/Games/School/Daw/Daw_3.jpg"
+      ],
+      "videos": [
+        {
+          "youtubeId": "CKCZ_AJMBvU",
+          "title": "Teaser",
+          "thumbnail": ""
+        },
+        {
+          "youtubeId": "7ZAqFMcc9Sw",
+          "title": "Trailer",
+          "thumbnail": ""
+        },
+        {
+          "youtubeId": "7v-C0qm6tRI",
+          "title": "Gameplay",
+          "thumbnail": ""
+        }
+      ]
+    }
+  },
+  "educational-4": {
+    "title": "Saloon Royale",
+    "role": "Gameplay Programmer",
+    "year": "2022",
+    "thumbnail": "public/Images/Games/School/saloon/Thumb.png",
+    "description": "Card game inspired by the Bang! board game",
+    "longDescription": "Project created with other <strong>programmers</strong> from my course. The goal was to create a <strong>card game</strong> in just a few days. I mainly took care of implementing a <strong>Card System</strong> that handled <strong>card and deck management</strong>",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Data-driven Card System",
+      "Enemy AI",
+      "Rail camera movement"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Direct Download",
+        "type": "direct-download",
+        "url": "https://drive.google.com/uc?export=download&id=1PGeP9eKXp_yhlDsjEVV8GMWiUtVzUrIp"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/School/saloon/saloon_0.png",
+        "public/Images/Games/School/saloon/saloon_2.png"
+      ],
+      "videos": [
+        {
+          "youtubeId": "9sp8MvMgsdQ",
+          "title": "Gameplay",
+          "thumbnail": ""
+        }
+      ]
+    }
+  },
+  "educational-5": {
+    "title": "Christmas Break",
+    "role": "Solo Programmer",
+    "year": "2021",
+    "thumbnail": "public/Images/Games/School/cb/cb_1.jpg",
+    "description": "Christmas-themed stealth game",
+    "longDescription": "<strong>Group project</strong> made during my <strong>first year</strong> at <strong>TheSIGN academy</strong>. Educational experience that allowed me to learn the basics of <strong>teamwork</strong> and <strong>project management</strong> in game development.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Visual novel-style dialogue system",
+      "Stealth mechanics",
+      "Enemy AI with FSM"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Direct Download",
+        "type": "direct-download",
+        "url": "https://drive.google.com/uc?export=download&id=1M3igb2LBBq259zVDsMM3t4w7WI0XQXPE"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/School/cb/cb_0.jpg",
+        "public/Images/Games/School/cb/cb_1.jpg",
+        "public/Images/Games/School/cb/cb_2.jpg",
+        "public/Images/Games/School/cb/cb_3.jpg"
+      ],
+      "videos": [
+        {
+          "youtubeId": "zk7hrYMSOGQ",
+          "title": "Gameplay",
+          "thumbnail": ""
+        }
+      ]
+    }
+  },
+  "educational-7": {
+    "title": "The Spellcaster",
+    "role": "Gameplay Programmer",
+    "year": "2021",
+    "thumbnail": "public/Images/Games/School/spell/thumb.png",
+    "description": "Small non-linear action RPG in pixel art",
+    "longDescription": "Small project made with other <strong>programmers</strong> from the course at <strong>TheSIGN academy</strong>. I mainly took care of the <strong>arena system</strong>, the <strong>statistics system</strong> and the <strong>inventory</strong>",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "JRPG-style inventory",
+      "JRPG-style statistics system"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Direct Download",
+        "type": "direct-download",
+        "url": "https://drive.google.com/uc?export=download&id=1cLk36HgYdesQxTWdMqnZnvhyw1haajyy"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/School/spell/spell_0.png",
+        "public/Images/Games/School/spell/spell_1.png",
+        "public/Images/Games/School/spell/spell_2.png",
+        "public/Images/Games/School/spell/spell_3.png"
+      ],
+      "videos": [
+        {
+          "youtubeId": "mcNkrV3wPvg",
+          "title": "Gameplay",
+          "thumbnail": ""
+        }
+      ]
+    }
+  },
+  "educational-8": {
+    "title": "Top Down Zombie Game",
+    "role": "Solo Developer",
+    "year": "2021",
+    "thumbnail": "public/Images/Games/School/Zombie/Zombie.png",
+    "description": "Simple top-down twin stick shooter",
+    "longDescription": "This is the <strong>first game</strong> I ever <strong>programmed</strong> in my life, it's not much but it has a special place in my heart because this is where <strong>it all started</strong>, for this reason I want it to be here on my <strong>portfolio</strong>.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Twin-stick shooting system",
+      "Wave-based enemy spawning"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Direct Download",
+        "type": "direct-download",
+        "url": "https://drive.google.com/uc?export=download&id=1Kv7jJZz9UJTnhdQsA7ul7MyQiRynKeLM"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/School/Zombie/Zombie.png"
+      ],
+      "videos": [
+        {
+          "youtubeId": "01gd63GCo88",
+          "title": "Gameplay",
+          "thumbnail": ""
+        }
+      ]
+    }
+  },
+  "personal-1": {
+    "title": "Inventory Sandbox",
+    "role": "Solo Developer",
+    "year": "2025",
+    "thumbnail": "public/Images/Games/Personal/CRPG/crpg_0.png",
+    "description": "Sandbox for a CRPG-style inventory system",
+    "longDescription": "<strong>Personal project</strong> to experiment and test different <strong>inventory systems</strong>. Includes <strong>drag & drop</strong>, <strong>stacking</strong> and <strong>automatic sorting</strong>.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Data driven",
+      "Drag & drop inventory",
+      "Power-up system"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Source Code",
+        "type": "github",
+        "url": "https://github.com/Xomrac/Inventory_sandbox"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/Personal/CRPG/crpg_0.png",
+        "public/Images/Games/Personal/CRPG/crpg_1.png",
+        "public/Images/Games/Personal/CRPG/crpg_2.png"
+      ],
+      "videos": [
+        {
+          "youtubeId": "C6d74z4sNhc",
+          "title": "Gameplay",
+          "thumbnail": ""
+        }
+      ]
+    }
+  },
+  "personal-2": {
+    "title": "Cosmic Wars",
+    "role": "Solo Developer",
+    "year": "2024",
+    "thumbnail": "public/Images/Games/Personal/cw/Thumb.png",
+    "description": "Sandbox for a vertical scrolling arcade shooter: case study on programming pattern usage",
+    "longDescription": "<strong>Personal project</strong> to experiment with <strong>shooting mechanics</strong>. Includes various types of <strong>weapons</strong>, <strong>projectiles</strong> and <strong>aiming systems</strong>.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Wave-based spawn system",
+      "Different shooting modes",
+      "Enemies with unique behaviors"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Direct Download",
+        "type": "direct-download",
+        "url": "https://drive.google.com/uc?export=download&id=1PVyZ3xAdCOO1lCgyvx6LaG1rX2XLPqcl"
+      },
+      {
+        "name": "Source Code",
+        "type": "github",
+        "url": "https://github.com/Xomrac/ShootEmUp"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/Personal/cw/cw_0.png",
+        "public/Images/Games/Personal/cw/cw_1.png",
+        "public/Images/Games/Personal/cw/cw_2.png",
+        "public/Images/Games/Personal/cw/cw_3.png"
+      ],
+      "videos": [
+        {
+          "youtubeId": "NHg3g7WYMUE",
+          "title": "Gameplay",
+          "thumbnail": ""
+        }
+      ]
+    }
+  },
+  "gamejam-1": {
+    "title": "2025 - Bubblexploder",
+    "role": "Solo Developer",
+    "year": "2025",
+    "thumbnail": "public/Images/Games/Jams/Bubble/Thumb.png",
+    "description": "A meta game where you pop Windows windows.",
+    "longDescription": "Small <strong>arcade game</strong> made during <strong>GGJ 2025</strong> with theme: \"<strong>Bubble</strong>\". Uses the <strong>WPF</strong> framework to simulate a <strong>virus</strong> that fills your desktop with <strong>pop-up windows</strong> to burst.",
+    "technologies": ["C#", ".NET", "WPF"],
+    "features": [
+      "Designed to be moddable",
+      "Diegetic audio system",
+      "Stupidly loud sounds",
+      "Incredible chiptune soundtrack"
+    ],
+    "engine": "C#",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Global Game Jam",
+        "type": "gamejam",
+        "url": "https://globalgamejam.org/games/2025/bubblexploder-2025-demake-edition-6"
+      },
+      {
+        "name": "Source Code",
+        "type": "github",
+        "url": "https://github.com/Xomrac/GGJ2025_BubbleXpldoer"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/Jams/Bubble/bubble_0.png",
+        "public/Images/Games/Jams/Bubble/Thumb.png"
+      ],
+      "videos": [
+        {
+          "youtubeId": "fWCXmnfWm2A",
+          "title": "Gameplay",
+          "thumbnail": ""
+        }
+      ]
+    }
+  },
+  "gamejam-2": {
+    "title": "2024 - Capitan Risata",
+    "role": "Solo Developer",
+    "year": "2024",
+    "thumbnail": "public/Images/Games/Jams/totti/totti_1.png",
+    "description": "Help a well-known face get through a rough patch thanks to his specialty, jokes!",
+    "longDescription": "Small <strong>experience</strong> (I struggle to define it as a game) developed during <strong>Global Game Jam 2024</strong>. Our task will be to suggest <strong>jokes</strong> to our dear <strong>captain laughter (Totti)</strong> to help him overcome a difficult moment in his life. The possible proposals have been compiled by all the other <strong>jam participants</strong> and as a reward for reaching the end of the \"<strong>run</strong>\" we will have a copy of the <strong>book (in .txt format)</strong> to show off to friends.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "Comic theme",
+      "Charismatic character",
+      "Collaborative development",
+      "Surreal humor",
+      "Masterful voice acting",
+      "Pupone cameo"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Global Game Jam",
+        "type": "gamejam",
+        "url": "https://globalgamejam.org/games/2024/capitan-risata-4"
+      },
+      {
+        "name": "Source Code",
+        "type": "github",
+        "url": "https://github.com/Xomrac/GGJ2024_Capitan-Risata"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/Jams/totti/totti_0.png",
+        "public/Images/Games/Jams/totti/totti_1.png",
+        "public/Images/Games/Jams/totti/totti_2.png",
+        "public/Images/Games/Jams/totti/thumb.jpg"
+      ],
+      "videos": [
+        {
+          "youtubeId": "ewBrc1woF60",
+          "title": "Gameplay",
+          "thumbnail": ""
+        }
+      ]
+    }
+  },
+  "gamejam-3": {
+    "title": "2023 - Rootnik",
+    "role": "Gameplay Programmer",
+    "year": "2023",
+    "thumbnail": "public/Images/Games/Jams/root/Root.png",
+    "description": "2D game with an astronaut plant, who unfortunately failed to take off.",
+    "longDescription": "Unfortunately Rootnik didn't manage to see the light (it barely starts) but it was a great exercise to learn how to work in a team and manage those conflicts that inevitably arise when working with multiple people in stressful situations like a game jam. The concept was interesting and the gameplay promising, but the lack of coordination and communication led to an incomplete final product.<br>I still had a lot of fun and remained friends with all the team members.<br>maybe it's not exactly a project to show in the portfolio, but it was certainly an important step in my growth journey as a game developer and therefore I want to include it here.",
+    "technologies": ["Unity", "C#"],
+    "features": [
+      "It starts (more or less)"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Global Game Jam",
+        "type": "gamejam",
+        "url": "https://v3.globalgamejam.org/2023/games/rootnik-1-3"
+      },
+      {
+        "name": "Source Code",
+        "type": "github",
+        "url": "https://github.com/Xomrac/GGJ2023_Rootnik"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/Jams/root/Root.png"
+      ],
+      "videos": []
+    }
+  },
+  "gamejam-4": {
+    "title": "2022 - Crocs Among Props",
+    "role": "Designer & Gameplay Programmer",
+    "year": "2022",
+    "thumbnail": "public/Images/Games/Jams/cap/thumb.png",
+    "description": "Struggling platform game where you have to reunite 2 crocs while avoiding frying your PC with all these incredible props.",
+    "longDescription": "<strong>First time</strong> I participated in a <strong>game jam</strong>, I participated in the <strong>gameplay ideation</strong> and implementation of the <strong>character controller</strong> and <strong>AI</strong> that moves <strong>props</strong> around the room.<br>It's not some masterpiece, but it made me discover the <strong>world of jams</strong> and gave me the push to participate in all <strong>subsequent jams</strong>, even going so far as to participate as an <strong>organizer</strong>.",
+    "technologies": ["C#", "Unity"],
+    "features": [
+      "Haptic feedback system",
+      "Roomba-like AI for props",
+      "Crocs",
+      "Props"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Global Game Jam",
+        "type": "gamejam",
+        "url": "https://v3.globalgamejam.org/2022/games/crocs-among-props-6"
+      },
+      {
+        "name": "Source Code",
+        "type": "github",
+        "url": "https://github.com/Xomrac/GGJ2022_Crocs-Among-Props"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/Jams/cap/cap_0.png",
+        "public/Images/Games/Jams/cap/cap_1.png",
+        "public/Images/Games/Jams/cap/cap_2.png",
+        "public/Images/Games/Jams/cap/cap_3.png"
+      ],
+      "videos": [
+        {
+          "youtubeId": "EDANjn3q3Ek",
+          "title": "Gameplay Trailer",
+          "thumbnail": ""
+        }
+      ]
+    }
+  },
+  "work-1": {
+    "title": "Virivì e l'ombra della pioggia",
+    "role": "Solo Programmer",
+    "year": "2025",
+    "thumbnail": "public/Images/Games/Work/Viri/thumb.jpg",
+    "description": "Mobile serious game for children",
+    "longDescription": "Developed with <a href=\"https://whitesock.it/project/virivi-e-lombra-della-pioggia/\" target=\"_blank\"><strong>Whitesock</strong></a>, Project co-financed by the <strong>RETURN</strong> (multi-risk science for resilient communities) call from the <strong>University of Florence</strong> and supported by the <strong>National Recovery and Resilience Plan</strong> of the <strong>European Union - Next Generation EU</strong>. This <strong>mobile serious game</strong> for children and teenagers addresses <strong>safety culture</strong> and <strong>climate change</strong> themes through an interactive adventure set in an imaginary Lucanian village.<br>The game uses <strong>investigative mechanics</strong> and a <strong>dialogue branching system</strong> to guide players through <strong>flood risk mitigation</strong> situations, promoting <strong>community resilience</strong> and combating eco-anxiety through active empowerment.<br>The project received recognition as a <strong>'Best In Impact' finalist</strong> at the <strong>Italian Video Game Awards 2025</strong>, confirming the quality of the educational impact achieved.",
+    "technologies": ["Unity", "C#", "articy:draft", "FMOD"],
+    "features": [
+      "Open World",
+      "Hotspot interaction system",
+      "Dialogue System with branching paths",
+      "articy:draft integration",
+      "Audio system with FMOD",
+      "Save system with automatic checkpoints"
+    ],
+    "engine": "Unity",
+    "platforms": ["android", "ios"],
+    "stores": [
+      {
+        "name": "Google Play Store",
+        "type": "google-play",
+        "url": "https://play.google.com/store/apps/details?id=dev.whitesock.acterra&hl"
+      },
+      {
+        "name": "Apple App Store",
+        "type": "app-store",
+        "url": "https://apps.apple.com/it/app/viriv%C3%AC-e-lombra-della-pioggia/id6742781066"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/Work/Viri/viri_0.jpg",
+        "public/Images/Games/Work/Viri/viri_1.jpg",
+        "public/Images/Games/Work/Viri/viri_2.jpg",
+        "public/Images/Games/Work/Viri/viri_3.jpg",
+        "public/Images/Games/Work/Viri/viri_4.jpg"
+      ],
+      "videos": [
+        {
+          "youtubeId": "oporuZRG-Fw",
+          "title": "Gameplay Trailer",
+          "thumbnail": ""
+        }
+      ]
+    }
+  },
+  "work-2": {
+    "title": "Grand Round VR",
+    "role": "Solo Programmer",
+    "year": "2024",
+    "thumbnail": "public/Images/Games/Work/lung/thumb.png",
+    "description": "Local online multiplayer VR app for engaging and interactive training",
+    "longDescription": "Local online multiplayer <strong>VR project</strong> developed for <a href=\"https://nume.plus/prodotti/grvr/\" target=\"_blank\"><strong>Nume+</strong></a> with <a href=\"https://whitesock.it/project/vr-classroom/\" target=\"_blank\"><strong>Whitesock</strong></a>. Allows teams of professionals to immerse themselves in <strong>realistic training environments</strong>, improving learning through <strong>practical simulations</strong> and <strong>collaborative interactions</strong> in a safe and controlled virtual environment. The platform uses <strong>OpenXR</strong> and <strong>Mirror Networking</strong> technologies to ensure a stable and scalable immersive experience on <strong>standalone VR devices</strong>.",
+    "technologies": ["Unity", "C#", "OpenXR", "Mirror Networking"],
+    "features": [
+      "Local online multiplayer with reconnection capability",
+      "Optimization for standalone VR devices",
+      "Support for training experience customization"
+    ],
+    "engine": "Unity",
+    "platforms": ["vr"],
+    "stores": [
+      {
+        "name": "Limited Distribution",
+        "type": "limited-distribution"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/Work/lung/lung_0.png"
+      ],
+      "videos": [
+        {
+          "youtubeId": "9MRiF6K_WJc",
+          "title": "Showcase",
+          "thumbnail": ""
+        }
+      ]
+    }
+  },
+  "work-3": {
+    "title": "Quadrivium",
+    "role": "Junior Game Programmer",
+    "year": "2023",
+    "thumbnail": "public/Images/Games/Work/Quad/thumb.jpg",
+    "description": "2.5D puzzle game with historical theme",
+    "longDescription": "Developed with the <a href=\"https://quadriviumgame.com/\" target=\"_blank\"><strong>Quadrivium Game</strong></a> team, Quadrivium is a <strong>2.5D puzzle game</strong> based on interaction between characters and the surrounding environment to solve puzzles inspired by real historical facts.<br>I mainly took care of creating the basic game loop: character control, dialogue system, level selection and interaction with game environments.<br>Presented at Svilupparty <a href=\"https://www.youtube.com/watch?v=xtegM_9Miww\" target=\"_blank\">2023</a> the game was then released on Steam in February 2025.",
+    "technologies": ["Unity", "C#", "Inkle's Ink"],
+    "features": [
+      "Released on Steam",
+      "Multi-character control system",
+      "Dialogue system with branching paths adaptive based on controlled character"
+    ],
+    "engine": "Unity",
+    "platforms": ["windows"],
+    "stores": [
+      {
+        "name": "Steam",
+        "type": "steam",
+        "url": "https://store.steampowered.com/app/3463240/Quadrivium__Paths_of_History/"
+      }
+    ],
+    "media": {
+      "images": [
+        "public/Images/Games/Work/Quad/Quad_0.jpg",
+        "public/Images/Games/Work/Quad/Quad_1.jpg"
+      ],
+      "videos": [
+        {
+          "youtubeId": "T9x_ZG-uRXw",
+          "title": "Trailer",
+          "thumbnail": ""
+        }
+      ]
+    }
+  }
+}

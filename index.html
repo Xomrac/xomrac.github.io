@@ -17,14 +17,20 @@
             </div>
             <div class="nav-container">
                 <ul class="nav-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Progetti</a></li>
-                    <li><a href="#experience">Esperienza</a></li>
-                    <li><a href="#education">Formazione</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contatti</a></li>
+                    <li><a href="#home" data-translate="nav.home">Home</a></li>
+                    <li><a href="#about" data-translate="nav.about">About</a></li>
+                    <li><a href="#projects" data-translate="nav.projects">Progetti</a></li>
+                    <li><a href="#experience" data-translate="nav.experience">Esperienza</a></li>
+                    <li><a href="#education" data-translate="nav.education">Formazione</a></li>
+                    <li><a href="#skills" data-translate="nav.skills">Skills</a></li>
+                    <li><a href="#contact" data-translate="nav.contact">Contatti</a></li>
                 </ul>
+                <div class="language-switcher">
+                    <button id="languageToggle" class="language-btn">
+                        <span class="flag-icon">🇮🇹</span>
+                        <span class="lang-text">IT</span>
+                    </button>
+                </div>
                 <div class="hamburger">
                     <span></span>
                     <span></span>
@@ -39,10 +45,10 @@
         <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1 class="hero-title">
+                    <h1 class="hero-title" data-translate="hero.title">
                         Benvenutə!
                     </h1>
-                    <p class="hero-description">
+                    <p class="hero-description" data-translate="hero.description">
                         <span class="keyword">Game developer</span> specializzato in <span class="keyword">Unity</span> e <span class="keyword">C#</span> con passione per la creazione
                         di <span class="keyword">esperienze interattive</span> coinvolgenti. Dal <span class="keyword">VR educativo</span> ai <span class="keyword">giochi mobile</span>, 
                         mi concentro su <span class="keyword">soluzioni innovative</span> che uniscono <span class="keyword">tecnologia</span> e <span class="keyword">creatività</span>.
@@ -57,21 +63,21 @@
                     <div class="hero-stats">
                         <div class="stat">
                             <span class="stat-number">3+</span>
-                            <span class="stat-label">Anni di esperienza</span>
+                            <span class="stat-label" data-translate="stats.experience">Anni di esperienza</span>
                         </div>
                         <div class="stat">
                             <span class="stat-number">15+</span>
-                            <span class="stat-label">Progetti completati</span>
+                            <span class="stat-label" data-translate="stats.projects">Progetti completati</span>
                         </div>
                         <div class="stat">
                             <span class="stat-number">100%</span>
-                            <span class="stat-label">Coding Enthusiast</span>
+                            <span class="stat-label" data-translate="stats.enthusiasm">Coding Enthusiast</span>
                         </div>
                     </div>
                     <div class="hero-buttons">
                         <a href="#projects" class="btn btn-primary">
                             <i class="fas fa-gamepad"></i>
-                            Progetti
+                            <span data-translate="buttons.projects">Progetti</span>
                         </a>
                         <a href="https://github.com/Xomrac" target="_blank" class="btn btn-tertiary">
                             <i class="fab fa-github"></i>
@@ -79,7 +85,7 @@
                         </a>
 			<a href="#contact" class="btn btn-secondary">
                             <i class="fas fa-envelope"></i>
-                            Contattami
+                            <span data-translate="buttons.contact">Contattami</span>
                         </a>
                     </div>
                 </div>
@@ -103,8 +109,8 @@
     <section class="about-preview">
         <div class="container">
             <div class="about-content">
-                <h2>About Me</h2>
-                <p>
+                <h2 data-translate="sections.aboutTitle">About Me</h2>
+                <p data-translate="about.description">
                     <span class="keyword">Game developer fiorentino</span> con una forte passione per il <span class="keyword">problem-solving</span> e l'<span class="keyword">innovazione tecnologica</span>. 
                     Lavoro sia in <span class="keyword">team</span> che come <span class="keyword">freelancer</span>, specializzandomi nello sviluppo di giochi e applicazioni 
                     che combinano <span class="keyword">creatività</span> e <span class="keyword">funzionalità</span>. 
@@ -128,17 +134,17 @@
     <section id="projects" class="projects">
         <div class="container">
             <div class="section-header">
-                <h2>I miei progetti</h2>
-                <p>Una collezione dei lavori che meglio rappresentano il mio percorso di sviluppo</p>
+                <h2 data-translate="sections.projectsTitle">I miei progetti</h2>
+                <p data-translate="sections.projectsSubtitle">Una collezione dei lavori che meglio rappresentano il mio percorso di sviluppo</p>
             </div>
 
             <!-- Project Categories Navigation -->
             <div class="project-categories">
-                <button class="category-btn active" data-category="all">Tutti</button>
-                <button class="category-btn" data-category="work">Lavorativi</button>
-                <button class="category-btn" data-category="gamejam">Global Game Jam</button>
-                <button class="category-btn" data-category="personal">Personali</button>
-                <button class="category-btn" data-category="education">Formativi</button>
+                <button class="category-btn active" data-category="all" data-translate="categories.all">Tutti</button>
+                <button class="category-btn" data-category="work" data-translate="categories.work">Lavorativi</button>
+                <button class="category-btn" data-category="gamejam" data-translate="categories.gamejam">Global Game Jam</button>
+                <button class="category-btn" data-category="personal" data-translate="categories.personal">Personali</button>
+                <button class="category-btn" data-category="education" data-translate="categories.education">Formativi</button>
             </div>
 
             <!-- Educational Projects -->
@@ -146,7 +152,7 @@
             <div class="projects-category" data-category="work">
                 <h3 class="category-title">
                     <i class="fas fa-briefcase"></i>
-                    Progetti Lavorativi
+                    <span data-translate="categoryTitles.work">Progetti Lavorativi</span>
                 </h3>
                 <div class="projects-grid">
                     <!-- Cards will be generated dynamically -->
@@ -157,7 +163,7 @@
             <div class="projects-category" data-category="gamejam">
                 <h3 class="category-title">
                     <i class="fas fa-stopwatch"></i>
-                    Global Game Jam
+                    <span data-translate="categoryTitles.gamejam">Global Game Jam</span>
                 </h3>
                 <div class="projects-grid">
                     <!-- Cards will be generated dynamically -->
@@ -168,7 +174,7 @@
             <div class="projects-category" data-category="personal">
                 <h3 class="category-title">
                     <i class="fas fa-heart"></i>
-                    Progetti Personali
+                    <span data-translate="categoryTitles.personal">Progetti Personali</span>
                 </h3>
                 <div class="projects-grid">
                     <!-- Cards will be generated dynamically -->
@@ -179,7 +185,7 @@
             <div class="projects-category" data-category="education">
                 <h3 class="category-title">
                     <i class="fas fa-graduation-cap"></i>
-                    Progetti Formativi
+                    <span data-translate="categoryTitles.education">Progetti Scolastici</span>
                 </h3>
                 <div class="projects-grid">
                     <!-- Cards will be generated dynamically -->
@@ -236,14 +242,14 @@
                                 </div>
                             </div>
                             <div class="info-row">
-                                <span class="info-label">Piattaforme:</span>
+                                <span class="info-label" data-translate="projects.platforms">Piattaforme:</span>
                                 <div id="modalPlatforms" class="info-value platforms-list">
                                     <i class="fab fa-windows"></i>
                                     <i class="fab fa-android"></i>
                                 </div>
                             </div>
                             <div class="info-row">
-                                <span class="info-label">Disponibile su:</span>
+                                <span class="info-label" data-translate="projects.availableOn">Disponibile su:</span>
                                 <div id="modalStores" class="info-value stores-list">
                                     <a href="#" class="store-link"><i class="fab fa-steam"></i></a>
                                     <a href="#" class="store-link"><i class="fab fa-google-play"></i></a>
@@ -274,7 +280,7 @@
                             </div>
                             
                             <div class="detail-section">
-                                <h4>Tecnologie Utilizzate</h4>
+                                <h4 data-translate="projects.technologies">Tecnologie Utilizzate</h4>
                                 <div id="modalTechnologies" class="tech-list">
                                     <span class="tech-item">Unity 3D</span>
                                     <span class="tech-item">C#</span>
@@ -284,7 +290,7 @@
                             </div>
                             
                             <div class="detail-section">
-                                <h4>Caratteristiche Principali</h4>
+                                <h4 data-translate="projects.features">Caratteristiche Principali</h4>
                                 <ul id="modalFeatures" class="features-list">
                                     <li>Sistema di inventario avanzato</li>
                                     <li>Multiplayer online</li>
@@ -304,8 +310,8 @@
     <section id="experience" class="experience">
         <div class="container">
             <div class="section-header">
-                <h2>Esperienza Lavorativa</h2>
-                <p>Le tappe professionali che hanno formato le mie competenze</p>
+                <h2 data-translate="sections.experienceTitle">Esperienza Lavorativa</h2>
+                <p data-translate="sections.experienceSubtitle">Le tappe professionali che hanno formato le mie competenze</p>
             </div>
             
             <div class="experience-grid">
@@ -317,19 +323,19 @@
                             </div>
                         </a>
                         <div class="experience-info">
-                            <h4>Assistente Didattico</h4>
+                            <h4 data-translate="experience.thesign.title">Assistente Didattico</h4>
                             <a href="https://thesign.academy/" target="_blank" class="company-name-link">
                                 <h5>TheSIGN Academy</h5>
                             </a>
                             <span class="experience-period">Nov 2023 - In corso</span>
                             <span class="experience-location">
                                 <i class="fas fa-map-marker-alt"></i>
-                                Firenze, Italia
+                                <span data-translate="experience.thesign.location">Firenze, Italia</span>
                             </span>
                         </div>
                     </div>
                     <div class="experience-body">
-                        <p>
+                        <p data-translate="experience.thesign.description">
                            Assistenza tecnica e didattica principalmente agli studenti del secondo e terzo anno del corso di game programming, ma fornisco supporto tecnico e morale a tutti i team e studenti dei corsi di game dev. Mi occupo di essere disponibile per consigli, secondi pareri e risoluzione di problemi tecnici, fungendo da punto di riferimento accessibile ma non come docente di ruolo.
                         </p>
                         <ul class="experience-achievements">
@@ -352,25 +358,25 @@
                             </div>
                         </a>
                         <div class="experience-info">
-                            <h4>Unity Developer</h4>
+                            <h4 data-translate="experience.whitesock.title">Unity Developer</h4>
                             <a href="https://whitesock.it/" target="_blank" class="company-name-link">
                                 <h5>Whitesock</h5>
                             </a>
                             <span class="experience-period">Ago 2023 - Mag 2025</span>
                             <span class="experience-location">
                                 <i class="fas fa-map-marker-alt"></i>
-                                Firenze, Italia
+                                <span data-translate="experience.whitesock.location">Firenze, Italia</span>
                             </span>
                         </div>
                     </div>
                     <div class="experience-body">
-                        <p>
+                        <p data-translate="experience.whitesock.description">
                            Main programmer su progetti VR/AR B2B nel settore della formazione, progetti B2C nel settore del mobile gaming per bambini e sviluppo di tool e framwork interni per ottimizzare i processi di sviluppo.
                         </p>
                         <ul class="experience-achievements">
-                            <li>Sviluppo ed ottimizzazione di esperienze VR immersive su meta quest 2/3/3s</li>
-                            <li>Sviluppo di tool interni per il team di sviluppo</li>
-                            <li>Sviluppo del gioco mobile "virivì e l'ombra della pioggia". Finalista "Best In Impact" ai IVGA 2025</li>
+                            <li data-translate="experience.whitesock.achievements.0">Sviluppo ed ottimizzazione di esperienze VR immersive su meta quest 2/3/3s</li>
+                            <li data-translate="experience.whitesock.achievements.1">Sviluppo di tool interni per il team di sviluppo</li>
+                            <li data-translate="experience.whitesock.achievements.2">Sviluppo del gioco mobile "virivì e l'ombra della pioggia". Finalista "Best In Impact" ai IVGA 2025</li>
                         </ul>
                         <div class="experience-tech">
                             <span class="tech-tag">Unity</span>
@@ -393,12 +399,12 @@
                             </div>
                         </div>
                         <div class="experience-info">
-                            <h4>Futura Posizione</h4>
-                            <h5>In cerca di nuove opportunità</h5>
+                            <h4 data-translate="futurePosition.title">Futura Posizione</h4>
+                            <h5 data-translate="futurePosition.subtitle">In cerca di nuove opportunità</h5>
                         </div>
                     </div>
                     <div class="experience-body">
-                        <p>Sempre aperto a nuove sfide e opportunità di crescita professionale.</p>
+                        <p data-translate="futurePosition.description">Sempre aperto a nuove sfide e opportunità di crescita professionale.</p>
                     </div>
                 </div>
             </div>
@@ -409,8 +415,8 @@
     <section id="education" class="education">
         <div class="container">
             <div class="section-header">
-                <h2>Formazione</h2>
-                <p>Il mio percorso di crescita professionale e accademica</p>
+                <h2 data-translate="sections.educationTitle">Formazione</h2>
+                <p data-translate="sections.educationSubtitle">Il mio percorso di crescita professionale e accademica</p>
             </div>
             
             <div class="education-grid">
@@ -422,28 +428,28 @@
                             </div>
                         </a>
                         <div class="education-info">
-                            <h4>42 Common Core</h4>
+                            <h4 data-translate="education.firenze42.title">42 Common Core</h4>
                             <a href="https://42firenze.it/" target="_blank" class="company-name-link">
                                 <h5>42 Firenze</h5>
                             </a>
                             <span class="education-period">2025 - In corso</span>
                             <span class="education-location">
                                 <i class="fas fa-map-marker-alt"></i>
-                                Firenze, Italia
+                                <span data-translate="education.firenze42.location">Firenze, Italia</span>
                             </span>
                         </div>
                     </div>
                     <div class="education-body">
-                        <p>
+                        <p data-translate="education.firenze42.description">
                             Percorso intensivo e pratico di programmazione imperativa, 
 			    basato su progetti individuali e di gruppo in C, shell scripting, algoritmi e gestione della memoria. 
 			    Ho sviluppato competenze in problem solving, debugging e collaborazione peer-to-peer, senza lezioni frontali né insegnanti, 
 			    in un ambiente basato sull'apprendimento autonomo e sul confronto tra pari.
                         </p>
                         <ul class="education-achievements">
-                            <li>Problem solving avanzato</li>
-                            <li>Gestione della memoria</li>
-                            <li>Debugging efficace</li>
+                            <li data-translate="education.firenze42.achievements.0">Problem solving avanzato</li>
+                            <li data-translate="education.firenze42.achievements.1">Gestione della memoria</li>
+                            <li data-translate="education.firenze42.achievements.2">Debugging efficace</li>
                         </ul>
                         <div class="education-tech">
                             <span class="skill-tag">C</span>
@@ -467,25 +473,25 @@
                             </div>
                         </a>
                         <div class="education-info">
-                            <h4>Diploma Game Programming</h4>
+                            <h4 data-translate="education.thesign.title">Diploma Game Programming</h4>
                             <a href="https://thesign.academy/" target="_blank" class="company-name-link">
                                 <h5>TheSIGN Academy</h5>
                             </a>
                             <span class="education-period">2020 - 2023</span>
                             <span class="education-location">
                                 <i class="fas fa-map-marker-alt"></i>
-                                Firenze, Italia
+                                <span data-translate="education.thesign.location">Firenze, Italia</span>
                             </span>
                         </div>
                     </div>
                     <div class="education-body">
-                        <p>
+                        <p data-translate="education.thesign.description">
 			Sviluppo di progetti in Unity e UE4 sia individualmente sia in team con altri studenti dei corsi di: 3D art, 2D art e game design.
                         </p>
                         <ul class="education-achievements">
-                            <li>Acquisizione di solide basi in programmazione e logica</li>
-                            <li>Apprendimento di come lavorare in un team multidisciplinare</li>
-                            <li>Approfondimento di programming patterns e architettura software</li>
+                            <li data-translate="education.thesign.achievements.0">Acquisizione di solide basi in programmazione e logica</li>
+                            <li data-translate="education.thesign.achievements.1">Apprendimento di come lavorare in un team multidisciplinare</li>
+                            <li data-translate="education.thesign.achievements.2">Approfondimento di programming patterns e architettura software</li>
                         </ul>
                         <div class="education-tech">
                             <span class="skill-tag">Unity</span>
@@ -508,15 +514,15 @@
     <section id="skills" class="skills">
         <div class="container">
             <div class="section-header">
-                <h2>Competenze Tecniche</h2>
-                <p>Gli strumenti e le tecnologie che padroneggio</p>
+                <h2 data-translate="skills.title">Competenze Tecniche</h2>
+                <p data-translate="skills.subtitle">Gli strumenti e le tecnologie che padroneggio</p>
             </div>
             
             <div class="skills-grid">
                 <div class="skill-category">
                     <h4>
                         <i class="fas fa-gamepad"></i>
-                        Game Dev
+                        <span data-translate="skills.categories.gamedev">Game Dev</span>
                     </h4>
                     <div class="skill-items">
                         <span class="skill-item">Unity</span>
@@ -531,7 +537,7 @@
                 <div class="skill-category">
                     <h4>
                         <i class="fas fa-code"></i>
-                        Programming
+                        <span data-translate="skills.categories.programming">Programming</span>
                     </h4>
                     <div class="skill-items">
                         <span class="skill-item">C</span>
@@ -546,7 +552,7 @@
                 <div class="skill-category">
                     <h4>
                         <i class="fas fa-tools"></i>
-                        Tools
+                        <span data-translate="skills.categories.tools">Tools</span>
                     </h4>
                     <div class="skill-items">
                         <span class="skill-item">Git/GitHub</span>
@@ -561,7 +567,7 @@
                 <div class="skill-category">
                     <h4>
                         <i class="fas fa-mobile-alt"></i>
-                        Platforms
+                        <span data-translate="skills.categories.platforms">Platforms</span>
                     </h4>
                     <div class="skill-items">
 			<span class="skill-item">Windows</span>
@@ -580,8 +586,8 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
-                <h2>Collaboriamo insieme</h2>
-                <p>Hai un progetto in mente? Parliamone!</p>
+                <h2 data-translate="contact.title">Collaboriamo insieme</h2>
+                <p data-translate="contact.subtitle">Hai un progetto in mente? Parliamone!</p>
             </div>
             
             <div class="contact-content">
@@ -589,14 +595,14 @@
                     <a href="#" onclick="window.location.href='mailto:' + 'marco.moretti.developer' + '@' + 'gmail.com'; return false;" class="contact-item" style="text-decoration: none; color: inherit; cursor: pointer;">
                         <i class="fas fa-envelope"></i>
                         <div>
-                            <h4>Email</h4>
+                            <h4 data-translate="contact.email">Email</h4>
                             <p>marco[DOT]moretti[DOT]developer[AT]gmail[DOT]com</p>
                         </div>
                     </a>
                     <a href="https://www.linkedin.com/in/marco-moretti-27a25a173/" target="_blank" class="contact-item" style="text-decoration: none; color: inherit;">
                         <i class="fab fa-linkedin"></i>
                         <div>
-                            <h4>LinkedIn</h4>
+                            <h4 data-translate="contact.linkedin">LinkedIn</h4>
                             <p>Marco Moretti</p>
                         </div>
                     </a>
@@ -607,5 +613,6 @@
 
     <!-- JavaScript -->
     <script src="script.js"></script>
+    <script src="translations.js"></script>
 </body>
 </html>
