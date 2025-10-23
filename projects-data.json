@@ -131,14 +131,14 @@
     "title": "Christmas Break",
     "role": "Solo Programmer",
     "year": "2021",
+    "thumbnail": "public/Images/Games/School/cb/cb_1.jpg",
     "description": "Gioco stealth a tema natalizio",
     "longDescription": "Progetto di gruppo fatto durante l'arco del mio primo anno alla TheSIGN academy.",
     "technologies": ["Unity", "C#"],
     "features": [
-      "Tema natalizio",
-      "Meccaniche festive",
-      "Interfaccia colorata",
-      "Effetti particellari"
+      "Dialogue system stile visual novel",
+      "Meccaniche stealth",
+      "AI dei nemici con FSM"
     ],
     "engine": "Unity",
     "platforms": ["windows"],
@@ -146,18 +146,22 @@
       {
         "name": "Download Diretto",
         "type": "direct-download"
-      },
-      {
-        "name": "Codice Sorgente",
-        "type": "github"
       }
     ],
     "media": {
       "images": [
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Christmas+Screenshot+1",
-        "https://via.placeholder.com/600x400/2d2d2d/dc2626?text=Christmas+Screenshot+2"
+        "public/Images/Games/School/cb/cb_0.jpg",
+        "public/Images/Games/School/cb/cb_1.jpg",
+        "public/Images/Games/School/cb/cb_2.jpg",
+	"public/Images/Games/School/cb/cb_3.jpg"
       ],
-      "videos": []
+      "videos": [
+	{
+	  "youtubeId": "zk7hrYMSOGQ",
+	  "title": "Gameplay",
+	  "thumbnail": ""
+	}
+      ]
     }
   },
   "educational-7": {
