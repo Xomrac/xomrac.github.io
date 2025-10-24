@@ -179,7 +179,7 @@ const translations = {
             contactSubtitle: "Have a project in mind? Let's talk about it!"
         },
         about: {
-            description: `<span class="keyword">Florentine game developer</span> with a strong passion for <span class="keyword">problem-solving</span> and <span class="keyword">technological innovation</span>. 
+            description: `<span class="keyword">Italian game developer</span> with a strong passion for <span class="keyword">problem-solving</span> and <span class="keyword">technological innovation</span>. 
                     I work both in <span class="keyword">teams</span> and as a <span class="keyword">freelancer</span>, specializing in developing games and applications 
                     that combine <span class="keyword">creativity</span> and <span class="keyword">functionality</span>. 
                     <br><br>
